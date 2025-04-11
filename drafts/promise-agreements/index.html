@@ -1,0 +1,1461 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../DAHN/">
+      
+      
+        <link rel="next" href="../uniform-api/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>Promise Agreements - MAP Narratives</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#map-agreements" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="MAP Narratives" class="md-header__button md-logo" aria-label="MAP Narratives" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MAP Narratives
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Promise Agreements
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/evomimic/map-narratives" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    map-narratives
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MAP Narratives" class="md-nav__button md-logo" aria-label="MAP Narratives" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MAP Narratives
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/evomimic/map-narratives" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    map-narratives
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Drafts in Progress
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Drafts in Progress
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    A New MAP Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collective-governance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Collective Governance Scaffolds
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../promises/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MAP Promises
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../promise-weaves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Promise Weaves
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vital-capital-flows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vital Capital Flows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DAHN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Greet the DAHN
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Promise Agreements
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Promise Agreements
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interdependent-networks-of-promises-that-give-rise-to-collective-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interdependent networks of Promises that give rise to collective intelligence
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-promise-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 What is a Promise Weave?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structure-of-a-promise-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 Structure of a Promise Weave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-a-promise-weave-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧬 How a Promise Weave Forms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-weaves-are-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠 How Weaves Are Used
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#promise-weave-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Promise Weave Lifecycle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizing-a-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Visualizing a Weave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-of-a-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Governance of a Weave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-other-map-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Integration with Other MAP Structures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-threads-for-promise-weaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧭 Open Threads for Promise Weaves
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧭 Open Threads for Promise Weaves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-weave-health-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Weave Health &amp; Metrics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-weave-split-merge-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Weave Split / Merge Patterns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-nested-weaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Nested Weaves
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-adaptive-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Adaptive Governance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-public-discovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Public Discovery
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-promise-weaves-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌿 Why Promise Weaves Matter
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../uniform-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Uniform API (Dances)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ethical-ai-rag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ethical AI & RAG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/gitbook-import/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitBook Import
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interdependent-networks-of-promises-that-give-rise-to-collective-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interdependent networks of Promises that give rise to collective intelligence
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-promise-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 What is a Promise Weave?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structure-of-a-promise-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 Structure of a Promise Weave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-a-promise-weave-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧬 How a Promise Weave Forms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-weaves-are-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠 How Weaves Are Used
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#promise-weave-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Promise Weave Lifecycle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizing-a-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Visualizing a Weave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-of-a-weave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Governance of a Weave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-other-map-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Integration with Other MAP Structures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-threads-for-promise-weaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧭 Open Threads for Promise Weaves
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧭 Open Threads for Promise Weaves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-weave-health-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Weave Health &amp; Metrics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-weave-split-merge-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Weave Split / Merge Patterns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-nested-weaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Nested Weaves
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-adaptive-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Adaptive Governance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-public-discovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Public Discovery
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-promise-weaves-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌿 Why Promise Weaves Matter
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/evomimic/map-narratives/edit/main/docs/drafts/promise-agreements.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<blockquote>
+<p>🚧 <strong>Draft in Progress</strong> — This narrative holon is evolving and open for remix.</p>
+</blockquote>
+<h1 id="map-agreements">🕸️ MAP Agreements<a class="headerlink" href="#map-agreements" title="Permanent link">&para;</a></h1>
+<h3 id="interdependent-networks-of-promises-that-give-rise-to-collective-intelligence">Interdependent networks of Promises that give rise to collective intelligence<a class="headerlink" href="#interdependent-networks-of-promises-that-give-rise-to-collective-intelligence" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="what-is-a-promise-weave">🌐 What is a Promise Weave?<a class="headerlink" href="#what-is-a-promise-weave" title="Permanent link">&para;</a></h2>
+<p>A <strong>Promise Weave</strong> is a <strong>living network of Promises</strong> among Cells that forms when:</p>
+<ul>
+<li>Multiple Promises are <strong>accepted and activated</strong></li>
+<li>Those Promises involve <strong>shared capital flows</strong>, <strong>compatible memetic signatures</strong>, and <strong>agreed protocols</strong></li>
+<li>The participating Cells consent to <strong>relational interdependence</strong> under shared governance</li>
+</ul>
+<blockquote>
+<p>🌱 <em>A Promise Weave is how Cells self-organize into coherent systems of mutual support, purpose, and value flow.</em></p>
+</blockquote>
+<p>Promise Weaves are the <strong>memetic and relational fabric</strong> out of which <strong>Collective Cells</strong> emerge.</p>
+<hr />
+<h2 id="structure-of-a-promise-weave">🧩 Structure of a Promise Weave<a class="headerlink" href="#structure-of-a-promise-weave" title="Permanent link">&para;</a></h2>
+<p>Each Promise Weave is a <strong>self-describing holon</strong>, containing:</p>
+<ul>
+<li><code>participants</code>: List of Cell IDs and their roles</li>
+<li><code>componentPromises</code>: References to the individual Promises comprising the weave</li>
+<li><code>sharedMemeticSignature</code>: Aggregated values and intentions</li>
+<li><code>governanceScaffold</code>: Agreed decision-making and participation model</li>
+<li><code>vitalCapitalFlows</code>: Flow map across Cells</li>
+<li><code>thresholds</code>: Optional sustainability or trust bounds</li>
+<li><code>protocols</code>: Interaction methods (e.g. MAPNative, Scuttlebutt, social ritual)</li>
+<li><code>status</code>: Proposed, Active, Dormant, Dissolving, Archived</li>
+</ul>
+<p>The Weave is <strong>dynamic</strong>: it can grow, split, merge, evolve, or dissolve based on consent and flow coherence.</p>
+<hr />
+<h2 id="how-a-promise-weave-forms">🧬 How a Promise Weave Forms<a class="headerlink" href="#how-a-promise-weave-forms" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Initial Promises</strong> are made by Cells (individual or collective)</li>
+<li><strong>Offers</strong> are extended and <strong>Agreements</strong> are signed</li>
+<li><strong>Trust Channels</strong> open and capital begins to flow</li>
+<li>If:<ul>
+<li>Shared capital types are active</li>
+<li>Memetic alignment is high</li>
+<li>A governance scaffold is adopted<br />
+  → A <strong>Promise Weave is instantiated</strong></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>🧠 The Weave is not imposed — it <em>emerges</em> when coordination becomes coherent.</p>
+</blockquote>
+<hr />
+<h2 id="how-weaves-are-used">🛠 How Weaves Are Used<a class="headerlink" href="#how-weaves-are-used" title="Permanent link">&para;</a></h2>
+<p>Promise Weaves are the <strong>coordination layer</strong> for:</p>
+<ul>
+<li><strong>Collective action</strong> (e.g. stewarding a commons, launching a project)</li>
+<li><strong>Fractal nesting</strong> (Weaves of Weaves form Collective Cells)</li>
+<li><strong>Capital pooling</strong> (e.g. mutual aid, land trusts)</li>
+<li><strong>Ritual practice</strong> (e.g. storytelling circles, care rituals, governance)</li>
+<li><strong>Protocol integration</strong> (automated or semi-automated services)</li>
+</ul>
+<p>Weaves may be <strong>public</strong>, <strong>semi-permeable</strong>, or <strong>private</strong>, based on governance and membrane configuration.</p>
+<hr />
+<h2 id="promise-weave-lifecycle">🔄 Promise Weave Lifecycle<a class="headerlink" href="#promise-weave-lifecycle" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Stage</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Emergence</strong></td>
+<td>Sufficient trust, alignment, and active Promises trigger formation</td>
+</tr>
+<tr>
+<td><strong>Activation</strong></td>
+<td>Weave becomes coherent: flows are live, governance is in effect</td>
+</tr>
+<tr>
+<td><strong>Growth / Mutation</strong></td>
+<td>Promises are added, roles evolve, new Cells join or split off</td>
+</tr>
+<tr>
+<td><strong>Reflection</strong></td>
+<td>Periodic reviews, Life Code updates, realignment efforts</td>
+</tr>
+<tr>
+<td><strong>Dissolution</strong></td>
+<td>Flows end or diverge, agreements conclude, Weave archives itself</td>
+</tr>
+</tbody>
+</table>
+<p>Each lifecycle stage may emit <strong>events</strong> (e.g. <code>weave.activated</code>, <code>weave.split</code>, <code>weave.realigned</code>).</p>
+<hr />
+<h2 id="visualizing-a-weave">📊 Visualizing a Weave<a class="headerlink" href="#visualizing-a-weave" title="Permanent link">&para;</a></h2>
+<p>In DAHN, Promise Weaves appear as <strong>interactive constellations</strong> or <strong>weblike graphs</strong>, showing:</p>
+<ul>
+<li>Participating Cells (nodes)</li>
+<li>Capital flows (edges)</li>
+<li>Agreement status (active, paused, at risk)</li>
+<li>Alignment resonance (color-coded or heatmapped)</li>
+<li>Promises as pulses or orbits within the system</li>
+</ul>
+<p>This allows Cells to <strong>sense into the health of their collective coordination</strong> at a glance.</p>
+<hr />
+<h2 id="governance-of-a-weave">🔐 Governance of a Weave<a class="headerlink" href="#governance-of-a-weave" title="Permanent link">&para;</a></h2>
+<p>Each Promise Weave adopts a <strong>Governance Scaffold</strong>, defining:</p>
+<ul>
+<li><strong>Decision-making modes</strong> (e.g. consent, voting, delegation)</li>
+<li><strong>Role configuration</strong> (e.g. steward, weaver, observer, membrane keeper)</li>
+<li><strong>Onboarding / exit</strong> protocols</li>
+<li><strong>Capital balance policies</strong></li>
+<li><strong>Promise compliance / restoration mechanisms</strong></li>
+</ul>
+<p>This allows Weaves to <strong>self-manage</strong> while remaining open to <strong>evolution and divergence</strong>.</p>
+<hr />
+<h2 id="integration-with-other-map-structures">🔗 Integration with Other MAP Structures<a class="headerlink" href="#integration-with-other-map-structures" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>MAP Structure</strong></th>
+<th><strong>Relation to Weave</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cell</strong></td>
+<td>Cells are the agents making Promises within the Weave</td>
+</tr>
+<tr>
+<td><strong>Collective Cell</strong></td>
+<td>Emerges from sustained Weave coherence</td>
+</tr>
+<tr>
+<td><strong>Agreement</strong></td>
+<td>Each Promise in the Weave is backed by one or more Agreements</td>
+</tr>
+<tr>
+<td><strong>Trust Channel</strong></td>
+<td>Controls visibility and flow permissions across Weave members</td>
+</tr>
+<tr>
+<td><strong>Dance Protocol</strong></td>
+<td>Defines how services, interactions, and flows are invoked</td>
+</tr>
+<tr>
+<td><strong>Vital Capital Flow</strong></td>
+<td>The Weave maps total inflows/outflows across all members</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="open-threads-for-promise-weaves">🧭 Open Threads for Promise Weaves<a class="headerlink" href="#open-threads-for-promise-weaves" title="Permanent link">&para;</a></h2>
+<h3 id="1-weave-health-metrics">1. <strong>Weave Health &amp; Metrics</strong><a class="headerlink" href="#1-weave-health-metrics" title="Permanent link">&para;</a></h3>
+<p>What are the best ways to assess:
+- Alignment strength?
+- Flow balance?
+- Memetic drift?</p>
+<h3 id="2-weave-split-merge-patterns">2. <strong>Weave Split / Merge Patterns</strong><a class="headerlink" href="#2-weave-split-merge-patterns" title="Permanent link">&para;</a></h3>
+<p>How do Weaves gracefully divide, recombine, or branch?</p>
+<h3 id="3-nested-weaves">3. <strong>Nested Weaves</strong><a class="headerlink" href="#3-nested-weaves" title="Permanent link">&para;</a></h3>
+<p>How do Promise Weaves nest inside each other — e.g. family Weave inside a bioregional Commons Weave?</p>
+<h3 id="4-adaptive-governance">4. <strong>Adaptive Governance</strong><a class="headerlink" href="#4-adaptive-governance" title="Permanent link">&para;</a></h3>
+<p>How do Weaves evolve scaffolds in response to shifting flows and contexts?</p>
+<h3 id="5-public-discovery">5. <strong>Public Discovery</strong><a class="headerlink" href="#5-public-discovery" title="Permanent link">&para;</a></h3>
+<p>What visibility models allow Cells to browse or join Weaves, while honoring privacy and sovereignty?</p>
+<hr />
+<h2 id="why-promise-weaves-matter">🌿 Why Promise Weaves Matter<a class="headerlink" href="#why-promise-weaves-matter" title="Permanent link">&para;</a></h2>
+<p>Promise Weaves are the <strong>connective tissue</strong> of MAP. They allow:</p>
+<ul>
+<li>Trust to scale without coercion</li>
+<li>Action to coordinate without hierarchy</li>
+<li>Capital to flow based on living consent</li>
+<li>Intelligence to emerge from interdependence</li>
+</ul>
+<blockquote>
+<p>The Weave is not just structure — it's <strong>relational intelligence</strong> in motion.</p>
+</blockquote>
+<h1 id="promise-weave-protocol-spec">🕸️ Promise Weave Protocol Spec<a class="headerlink" href="#promise-weave-protocol-spec" title="Permanent link">&para;</a></h1>
+<h3 id="a-coordination-pattern-for-interdependent-promises-capital-flows-and-regenerative-governance">A coordination pattern for interdependent promises, capital flows, and regenerative governance<a class="headerlink" href="#a-coordination-pattern-for-interdependent-promises-capital-flows-and-regenerative-governance" title="Permanent link">&para;</a></h3>
+<hr />
+<h1 id="promise-weave-protocol">🔧 Promise Weave Protocol<a class="headerlink" href="#promise-weave-protocol" title="Permanent link">&para;</a></h1>
+<p>A <strong>Promise Weave</strong> is a dynamic coordination structure formed when multiple MAP Cells enter into active, interdependent Promises that are backed by Agreements, aligned by shared values, and scaffolded by governance protocols.</p>
+<p>The Promise Weave Protocol specifies how Weaves:</p>
+<ul>
+<li>Are formed, structured, and maintained</li>
+<li>Enable trust-based collaboration</li>
+<li>Govern shared capital flows</li>
+<li>Support emergence of Collective Cells</li>
+</ul>
+<blockquote>
+<p>The protocol ensures that Cells retain full sovereignty while enabling coherent multi-agent action through consent, clarity, and contextual awareness.</p>
+</blockquote>
+<hr />
+<h2 id="core-protocol-concepts">📐 Core Protocol Concepts<a class="headerlink" href="#core-protocol-concepts" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Element</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Promise</strong></td>
+<td>A unilateral declaration of intent by a Cell, possibly referencing services, capital flows, or access.</td>
+</tr>
+<tr>
+<td><strong>Agreement</strong></td>
+<td>A consent-based contract between two or more Cells that activates one or more Promises.</td>
+</tr>
+<tr>
+<td><strong>Weave</strong></td>
+<td>A holonic structure containing interconnected Promises, shared capital flows, governance scaffolds, and active relationships.</td>
+</tr>
+<tr>
+<td><strong>Collective Cell</strong></td>
+<td>A higher-order holon that can emerge from a sufficiently cohesive and governed Promise Weave.</td>
+</tr>
+<tr>
+<td><strong>Governance Scaffold</strong></td>
+<td>A formalized structure for decision-making, participation, role assignment, and amendment within the Weave.</td>
+</tr>
+<tr>
+<td><strong>Vital Capital</strong></td>
+<td>The value types (Human, Natural, Social, etc.) flowing across the Weave, tracked and governed in context.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="weave-formation-protocol">🧬 Weave Formation Protocol<a class="headerlink" href="#weave-formation-protocol" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Promise Origination</strong><br />
+   One or more Cells issue Promises (e.g. service offers, contributions, invitations) with compatible capital types and memetic signatures.</p>
+</li>
+<li>
+<p><strong>Offer &amp; Agreement</strong><br />
+   Other Cells respond, forming Agreements that define access, expectations, and terms of fulfillment.</p>
+</li>
+<li>
+<p><strong>Capital Flow Activation</strong><br />
+   If reciprocal or networked capital flows are initiated (e.g. time-for-tools, care-for-space), the system qualifies for Weave formation.</p>
+</li>
+<li>
+<p><strong>Governance Scaffold Adoption</strong><br />
+   Cells adopt a shared governance pattern to steward the emerging relationship.</p>
+</li>
+<li>
+<p><strong>Weave Holon Instantiation</strong><br />
+   A <code>PromiseWeave</code> holon is created — self-describing, queryable, and visible through the DAHN.</p>
+</li>
+</ol>
+<hr />
+<h2 id="weave-lifecycle-states">🌀 Weave Lifecycle States<a class="headerlink" href="#weave-lifecycle-states" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>State</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>proposed</code></td>
+<td>Minimum viable Promises and Agreements are in place; governance is forming.</td>
+</tr>
+<tr>
+<td><code>active</code></td>
+<td>The Weave is live — capital is flowing, governance is functioning, and Dances are happening.</td>
+</tr>
+<tr>
+<td><code>mutating</code></td>
+<td>Promises or participants are changing, new thresholds or agreements being added.</td>
+</tr>
+<tr>
+<td><code>dormant</code></td>
+<td>Temporarily inactive; agreements and flows are paused, but not dissolved.</td>
+</tr>
+<tr>
+<td><code>dissolving</code></td>
+<td>Weave is being gracefully dismantled. Flows are stopped and roles exited.</td>
+</tr>
+<tr>
+<td><code>archived</code></td>
+<td>The Weave is closed and stored for reference, with full provenance intact.</td>
+</tr>
+</tbody>
+</table>
+<p>Transitions between states must follow the governance scaffold's decision rules.</p>
+<hr />
+<h2 id="roles-within-a-weave">🧭 Roles Within a Weave<a class="headerlink" href="#roles-within-a-weave" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Role</strong></th>
+<th><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>participant</code></td>
+<td>Standard member actively offering or accepting Promises.</td>
+</tr>
+<tr>
+<td><code>steward</code></td>
+<td>Responsible for maintaining the health, coherence, and thresholds of the Weave.</td>
+</tr>
+<tr>
+<td><code>observer</code></td>
+<td>Has visibility into the Weave but no active Promises (used for mentoring, transparency, or governance support).</td>
+</tr>
+<tr>
+<td><code>membrane keeper</code></td>
+<td>Manages visibility, onboarding/offboarding, and access requests.</td>
+</tr>
+<tr>
+<td><code>weaver</code></td>
+<td>May introduce, refactor, or realign the structure of the Weave (e.g. roles, flow logic).</td>
+</tr>
+</tbody>
+</table>
+<p>Roles are defined and managed within the <code>governanceScaffold</code>.</p>
+<hr />
+<h2 id="capital-flow-protocols">💧 Capital Flow Protocols<a class="headerlink" href="#capital-flow-protocols" title="Permanent link">&para;</a></h2>
+<p>All capital flows within a Weave must:</p>
+<ul>
+<li>Be <strong>explicitly declared</strong> in Promises and Agreements</li>
+<li>Reference <strong>Vital Capital Types</strong></li>
+<li>Be optionally bound to <strong>Thresholds</strong> (e.g. minimum contribution, maximum usage)</li>
+<li>Be tracked and visible in the Weave Dashboard (e.g. via DAHN’s Capital Compass)</li>
+</ul>
+<p>Example flow declarations may include:</p>
+<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cell:gardens.nora</span>
+<span class="w">  </span><span class="nt">to</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cell:fixit.tariq</span>
+<span class="w">  </span><span class="nt">capitalType</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Built Capital</span>
+<span class="w">  </span><span class="nt">flowType</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">stewardship</span>
+<span class="w">  </span><span class="nt">quantity</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;4</span><span class="nv"> </span><span class="s">tools&quot;</span>
+<span class="w">  </span><span class="nt">conditions</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;availableStock</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">3&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;trustLevel</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">0.6&quot;</span><span class="p p-Indicator">]</span>
+</code></pre></div>
+<h2 id="capital-flow-protocols_1">💧 Capital Flow Protocols<a class="headerlink" href="#capital-flow-protocols_1" title="Permanent link">&para;</a></h2>
+<p>All capital flows within a Weave must:</p>
+<ul>
+<li>Be <strong>explicitly declared</strong> in Promises and Agreements</li>
+<li>Reference <strong>Vital Capital Types</strong></li>
+<li>Be optionally bound to <strong>Thresholds</strong> (e.g. minimum contribution, maximum usage)</li>
+<li>Be tracked and visible in the Weave Dashboard (e.g. via DAHN’s Capital Compass)</li>
+</ul>
+<p>Example capital flow declaration:</p>
+<div class="highlight"><pre><span></span><code>from: cell:gardens.nora  
+to: cell:fixit.tariq  
+capitalType: Built Capital  
+flowType: stewardship  
+quantity: &quot;4 tools&quot;  
+conditions:  
+  - availableStock &gt; 3  
+  - trustLevel &gt; 0.6
+</code></pre></div>
+<hr />
+<h2 id="thresholds-and-sustainability-metrics">📏 Thresholds and Sustainability Metrics<a class="headerlink" href="#thresholds-and-sustainability-metrics" title="Permanent link">&para;</a></h2>
+<p>Each Weave may define <strong>context-aware thresholds</strong> for its capital types.</p>
+<ul>
+<li>Thresholds are stored as holons and govern acceptable ranges of inflows/outflows</li>
+<li>A <strong>Sustainability Quotient (SQ)</strong> is calculated per capital type</li>
+<li>Flows are paused, rebalanced, or replenished based on these metrics</li>
+</ul>
+<p>Governance rules may define responses to:</p>
+<ul>
+<li>Overshoot (SQ &gt; 1)</li>
+<li>Undersupply (capital not meeting shared needs)</li>
+<li>Burnout (uneven Human Capital contribution)</li>
+</ul>
+<hr />
+<h2 id="trust-privacy-discovery">🔐 Trust, Privacy &amp; Discovery<a class="headerlink" href="#trust-privacy-discovery" title="Permanent link">&para;</a></h2>
+<p>Promise Weaves respect sovereignty through <strong>membrane policies</strong>:</p>
+<ul>
+<li><strong>Discovery visibility</strong>: Public, local, invitation-only</li>
+<li><strong>Access rights</strong>: Defined in Agreements or governance rules</li>
+<li><strong>Trust Channels</strong>: Used to filter visibility and access to Weave elements</li>
+</ul>
+<p>DAHN may allow Cells to:</p>
+<ul>
+<li>Discover nearby or aligned Weaves</li>
+<li>Request observation or participation roles</li>
+<li>View resonance indicators (memetic alignment, flow balance)</li>
+</ul>
+<hr />
+<h2 id="mutation-adaptation">🔄 Mutation &amp; Adaptation<a class="headerlink" href="#mutation-adaptation" title="Permanent link">&para;</a></h2>
+<p>Weaves are designed to evolve. Protocols support:</p>
+<ul>
+<li>Adding or removing Promises</li>
+<li>Reconfiguring roles</li>
+<li>Splitting a Weave into multiple threads</li>
+<li>Merging Weaves under shared capital/governance logic</li>
+<li>Amending governance scaffolds with consent</li>
+</ul>
+<p>These mutations are logged in the <code>events</code> stream of the <code>PromiseWeave</code> holon.</p>
+<hr />
+<h2 id="dahn-integration">📊 DAHN Integration<a class="headerlink" href="#dahn-integration" title="Permanent link">&para;</a></h2>
+<p>DAHN modules for interacting with Weaves include:</p>
+<ul>
+<li><strong>Weave Map</strong>: Visual graph of participants, flows, roles, and resonance</li>
+<li><strong>Capital Compass</strong>: Sustainability Quotient tracking per capital type</li>
+<li><strong>Promise Timeline</strong>: Event log of activations, fulfillments, and changes</li>
+<li><strong>Governance Console</strong>: Participate in decisions, proposals, and policy shifts</li>
+<li><strong>Memetic Alignment Viewer</strong>: Shared Life Code and signature constellation</li>
+</ul>
+<hr />
+<h2 id="summary">📘 Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>The Promise Weave Protocol enables:</p>
+<ul>
+<li>Fractal, sovereign, regenerative coordination</li>
+<li>Consent-based, memetic-aligned relationship building</li>
+<li>Real-time flow awareness across diverse capital types</li>
+<li>Emergence of Collective Cells through trust, not control</li>
+</ul>
+<blockquote>
+<p>A Promise Weave is not just a structure — it's a <strong>living agreement space</strong>, woven by intention, nurtured by flow, and sustained through mutual trust.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "search.highlight", "navigation.top", "content.action.edit"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
