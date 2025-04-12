@@ -1,0 +1,51 @@
+site_name: MAP Narratives
+repo_url: https://github.com/evomimic/map-narratives
+repo_name: map-narratives
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - search.highlight
+    - navigation.top
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Home: index.md
+  # - Published Narratives:
+
+  - Drafts in Progress:
+      - A New MAP Overview: drafts/overview.md
+      - Collective Governance Scaffolds: drafts/collective-governance.md
+      - MAP Promises: drafts/promises.md
+      - Promise Weaves: drafts/promise-weaves.md
+      - Vital Capital Flows: drafts/vital-capital-flows.md
+      - Greet the DAHN: drafts/DAHN.md
+      - Promise Agreements: drafts/promise-agreements.md
+      - Uniform API (Dances): drafts/uniform-api.md
+      - Ethical AI & RAG: drafts/ethical-ai-rag.md
+      - Agreements, Agent Spaces and LifeCodes: drafts/agreements-spec.md
+      - Glossary: drafts/glossary.md
+
+  - Archive:
+      - GitBook Import: archive/gitbook-import.md
