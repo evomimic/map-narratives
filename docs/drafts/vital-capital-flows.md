@@ -55,8 +55,8 @@ Every **Promise** in MAP includes one or more **Vital Capital Flows**, specifyin
 
 ### Example:
 
-```json
-"vitalCapitalFlows": [
+```
+"vitalCapitalFlows" : [
   {
     "capitalType": "Human Capital",
     "direction": "outgoing",
