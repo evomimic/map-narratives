@@ -85,13 +85,13 @@ MAP is for anyone building or participating in **regenerative systems** — syst
 
 ## Want to Go Deeper?
 
-* [Collective Cell Governance Scaffolds](https://github.com/evomimic/map-holons/wiki/Collective-Cell-Governance-Scaffolds)
-* [MAP Promises](https://github.com/evomimic/map-holons/wiki/MAP-Promises)
-* [Collaboration at Scale -- The Emergence of Promise Weaves](https://github.com/evomimic/map-holons/wiki/Collaboration-at-Scale-%E2%80%90%E2%80%90-The-Emergence-of-Promise-Weaves)
-* [Vital Capital Flows in the MAP](https://github.com/evomimic/map-holons/wiki/Vital-Capital-Flows-in-the-MAP)
-* [Greet the DAHN: Dynamic, Adaptive, Holon Navigator](https://github.com/evomimic/map-holons/wiki/Greet-the-DAHN:-The-Dynamic,-Adaptive,-Holon-Navigator)
-* [Promise Weaves in the MAP (Agreements)](https://github.com/evomimic/map-holons/wiki/Promise-Weaves-in-the-MAP--(Agreements))
-* [MAP Uniform API -- Dances as the Universal Interface](https://github.com/evomimic/map-holons/wiki/MAP-Uniform-API:-Dances-as-the-Universal-Interface)
+* [Collective Cell Governance Scaffolds]
+* [MAP Promises]
+* [Collaboration at Scale -- The Emergence of Promise Weaves]
+* [Vital Capital Flows in the MAP]
+* [Greet the DAHN: Dynamic, Adaptive, Holon Navigator]
+* [Promise Weaves in the MAP (Agreements)]
+* [MAP Uniform API -- Dances as the Universal Interface]
 
 ## 🌐 How Do I Engage?
 
