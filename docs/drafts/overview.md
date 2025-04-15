@@ -23,16 +23,20 @@ At its heart, MAP helps **agents** — people, collectives, communities — arti
 MAP is not a single app — it’s an **ecosystem platform** that enables a wide range of use cases:
 
 ### 🌱 For individuals:
-- Express your **Life Code** — the values and principles that guide you
-- Curate your **Data Grove** — your personal knowledge base, always under your control
-- Offer and accept **Promises** — formal declarations of what you offer, need, or intend
-- Participate in **Collective Cells** — such as neighborhoods, co-ops, movements, families
-- Activate **Dances** — actions, services, or collaborations you make available to others
+- Everything starts with putting yourself on the MAP -- literally and figuratively
+- Establish your personal identity and private _I-Space_
+- Within your I-Space you can:
+  - Connect to _place_ -- i.e., record your physical location
+  - Express your **Life Code** — the values and principles that guide you
+  - Curate your **Data Grove** — your personal knowledge base, visible only to you and always under your control
+  - Offer and accept **Promises** — formal declarations of what you offer, need, or intend
+  - Participate in **Agent Spaces** — such as neighborhoods, co-ops, movements, families
+
 
 ### 🤝 For communities and networks:
 - Form **governed, trust-based groups** with clear boundaries and consented flows
 - Co-create **Promise Weaves** — multi-agent agreements with shared purpose
-- Establish **Collective Cells** that act as living, adaptive organizations
+- Establish **Agent Spaces** that act as living, adaptive organizations
 - Visualize your ecosystem as a **graph of regenerative relationships**
 
 ### 🧠 For developers and system stewards:
@@ -94,7 +98,7 @@ MAP is for anyone building or participating in **regenerative systems** — syst
 - **Join the Commons**: Set up your Cell and start expressing your Life Code
 - **Offer a Dance**: Make a Promise and open a channel of value exchange
 - **Connect through Trust**: Form Agreements that build real-world coordination
-- **Grow Together**: Participate in Collective Cells and shape the MAP with others
+- **Grow Together**: Participate in Agent Spaces and shape the MAP with others
 
 > The MAP isn’t a platform you join — it’s a **living system** you help shape.
 

@@ -93,7 +93,7 @@ The Uniform API also enables MAP to serve as a **sovereign RAG (Retrieval-Augmen
 
 - All holons are self-describing and queryable
 - Trust Channels and Agreements define **information access boundaries**
-- AI agents can be embedded in Cells, Collective Cells, or DAHN modules
+- AI agents can be embedded in Cells, Agent Spaces, or DAHN modules
 - Every response is **contextualized**, **revocable**, and **grounded in consents**
 
 MAP becomes a **trust-anchored knowledge graph interface layer** for regenerative AI — one that honors privacy, agency, and mutual meaning-making.

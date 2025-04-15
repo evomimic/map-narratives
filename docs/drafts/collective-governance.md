@@ -1,7 +1,7 @@
 > 🚧 **Draft in Progress** — This narrative holon is evolving and open for remix.
 
 # 🏛️ Collective Cell Governance Scaffolds
-### Regenerative trust architectures for Collective Cells
+### Regenerative trust architectures for Agent Spaces
 
 ---
 
@@ -57,7 +57,7 @@ By embedding them directly in Governance Scaffolds, MAP enables:
 
 | **Principle**                      | **MAP Scaffold Implementation** |
 |-----------------------------------|----------------------------------|
-| 1. **Shared Identity & Purpose**  | Collective Cells encode their Life Code and shared values as a **memetic signature** in the scaffold. |
+| 1. **Shared Identity & Purpose**  | Agent Spaces encode their Life Code and shared values as a **memetic signature** in the scaffold. |
 | 2. **Equitable Distribution of Costs & Benefits** | **Vital Capital Flows** and **Sustainability Quotients** track reciprocity and imbalance, informing regenerative decisions. |
 | 3. **Inclusive & Fair Decision-Making** | Roles like **steward** and **weaver** facilitate decisions through protocols like consent, circles, and proposals. |
 | 4. **Monitoring Agreed Behaviors** | Promise fulfillment, contribution tracking, and role flows are observable (within Trust Channels) and logged in Agreements. |
@@ -136,7 +136,7 @@ Every scaffold includes:
 
 ## 📘 Summary
 
-Governance Scaffolds in MAP are how Collective Cells:
+Governance Scaffolds in MAP are how Agent Spaces:
 
 - Coordinate with clarity
 - Govern with coherence

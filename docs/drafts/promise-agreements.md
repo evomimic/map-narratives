@@ -15,7 +15,7 @@ A **Promise Weave** is a **living network of Promises** among Cells that forms w
 
 > 🌱 *A Promise Weave is how Cells self-organize into coherent systems of mutual support, purpose, and value flow.*
 
-Promise Weaves are the **memetic and relational fabric** out of which **Collective Cells** emerge.
+Promise Weaves are the **memetic and relational fabric** out of which **Agent Spaces** emerge.
 
 ---
 
@@ -56,7 +56,7 @@ The Weave is **dynamic**: it can grow, split, merge, evolve, or dissolve based o
 Promise Weaves are the **coordination layer** for:
 
 - **Collective action** (e.g. stewarding a commons, launching a project)
-- **Fractal nesting** (Weaves of Weaves form Collective Cells)
+- **Fractal nesting** (Weaves of Weaves form Agent Spaces)
 - **Capital pooling** (e.g. mutual aid, land trusts)
 - **Ritual practice** (e.g. storytelling circles, care rituals, governance)
 - **Protocol integration** (automated or semi-automated services)
@@ -167,7 +167,7 @@ The Promise Weave Protocol specifies how Weaves:
 - Are formed, structured, and maintained
 - Enable trust-based collaboration
 - Govern shared capital flows
-- Support emergence of Collective Cells
+- Support emergence of Agent Spaces
 
 > The protocol ensures that Cells retain full sovereignty while enabling coherent multi-agent action through consent, clarity, and contextual awareness.
 
@@ -341,6 +341,6 @@ The Promise Weave Protocol enables:
 - Fractal, sovereign, regenerative coordination
 - Consent-based, memetic-aligned relationship building
 - Real-time flow awareness across diverse capital types
-- Emergence of Collective Cells through trust, not control
+- Emergence of Agent Spaces through trust, not control
 
 > A Promise Weave is not just a structure — it's a **living agreement space**, woven by intention, nurtured by flow, and sustained through mutual trust.

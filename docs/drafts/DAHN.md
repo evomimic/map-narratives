@@ -49,7 +49,7 @@ We now have a clearly emerging pattern:
     - Discover and emit **Promises**
     - Negotiate and sign **Agreements**
     - Participate in **Dances** (affordances activated across agreements and protocols)
-    - Join, leave, and navigate **Promise Weaves** and **Collective Cells**
+    - Join, leave, and navigate **Promise Weaves** and **Agent Spaces**
 
 5. **Sensemaking and Awareness**
     - See your current Weaves, flows, agreements, and resonances
@@ -57,7 +57,7 @@ We now have a clearly emerging pattern:
     - Reflect on past Dances, unfulfilled Promises, and emerging tensions
 
 6. **Governance Participation**
-    - View, propose, and vote within Collective Cells
+    - View, propose, and vote within Agent Spaces
     - Step into or rotate roles defined in your Governance Scaffolds
     - Track amendment histories and evolving governance patterns
 

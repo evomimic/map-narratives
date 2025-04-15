@@ -10,7 +10,7 @@
 In the MAP, **Vital Capital** refers to the **core forms of value that sustain and regenerate life** — across human, ecological, social, and technological systems. Rather than reducing value to money, MAP enables the flow of diverse capital types through consent-based Promises and Agreements.
 
 > Vital Capital is the lifeblood of the MAP.  
-> It is what moves when Cells make Promises, activate Dances, and join Collective Cells.
+> It is what moves when Cells make Promises, activate Dances, and join Agent Spaces.
 
 MAP’s capital model draws from the work of:
 - **Context-Based Sustainability (CBS)** (McElroy, 2008)
@@ -162,7 +162,7 @@ Every Cell — individual or collective — can activate **Dashboards** in DAHN 
 
 These Dashboards are **configurable**, **privacy-respecting**, and may be:
 - Fully private (for self-awareness)
-- Shared selectively with Collective Cells
+- Shared selectively with Agent Spaces
 - Used as inputs to governance decisions (e.g. capacity to take on a new role)
 
 ---
@@ -225,7 +225,7 @@ Each flow may optionally include:
 This allows **capital-aware decision-making**, such as:
 
 - Pausing new Promises if a capital type is overdrawn
-- Rebalancing within a Collective Cell
+- Rebalancing within an Agent Space
 - Inviting support or restoration from allied Cells
 
 ---
@@ -248,7 +248,7 @@ How can communities define their own capital ontologies (e.g. Ritual Capital, An
 How do we track fulfillment and impact of capital flows without coercion or surveillance?
 
 ### 5. **Collective Flow Governance**
-What scaffolds and protocols allow Collective Cells to:
+What scaffolds and protocols allow Agent Spaces to:
 - Define policies for commons contributions
 - Steward pooled capital responsibly
 - Encourage reciprocal, regenerative flows?

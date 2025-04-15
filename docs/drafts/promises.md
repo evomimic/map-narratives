@@ -27,7 +27,7 @@ MAP draws from **Promise Theory** (Burgess & Bergstra) — a model for cooperati
 MAP adapts this foundation to:
 - Model **trust-based agreements** between Cells
 - Flow **Vital Capitals** between agents
-- Form **Promise Weaves** — networks of interdependent Promises that give rise to **Collective Cells**
+- Form **Promise Weaves** — networks of interdependent Promises that give rise to **Agent Spaces**
 
 ---
 
@@ -57,7 +57,7 @@ Every Promise is a **self-describing holon** — stored in the issuing Cell’s 
 | **Presence Signal**      | "I promise to be discoverable in this context (e.g. locality, interest group)." |
 | **Reciprocity Pattern**  | "I promise to reciprocate a flow of capital if I receive another."              |
 | **Governance Participation** | "I promise to participate in decisions, votes, or rituals under this scaffold." |
-| **Contribution Offer**   | "I promise to contribute time, labor, materials, or knowledge to a Collective Cell."|
+| **Contribution Offer**   | "I promise to contribute time, labor, materials, or knowledge to an Agent Space."|
 | **Trust Declaration**    | "I promise to recognize another Cell in a specific role or domain."             |
 | **Co-Creation Commitment**| "I promise to collaborate on the creation of a shared output, resource, or experience."|
 

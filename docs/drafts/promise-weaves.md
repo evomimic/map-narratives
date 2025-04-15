@@ -110,7 +110,7 @@ Imagine a visual like this:
   Shows current Promise Weaves forming in real time
 
 - **Membrane Synthesizer**  
-  Algorithmically proposes when a set of Cells is ready to “gel” into a Collective Cell
+  Algorithmically proposes when a set of Cells is ready to “gel” into an Agent Space
 
 - **Weave Health Metrics**  
   Track balance, depletion, trust breakdowns, or flow interruptions
