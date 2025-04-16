@@ -32,7 +32,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  # - Published Narratives:
 
   - Drafts in Progress:
       - A New MAP Overview: drafts/overview.md
@@ -46,6 +45,10 @@ nav:
       - Ethical AI & RAG: drafts/ethical-ai-rag.md
       - Agreements, Agent Spaces and LifeCodes: drafts/agreements-spec.md
       - Glossary: drafts/glossary.md
+
+  - Use Case Model:
+      - Personas: use-case-model/personas.md
+      - Ecosystem Activation: use-case-model/ecosystem-activation.md
 
   - Archive:
       - GitBook Import: archive/gitbook-import.md
