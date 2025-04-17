@@ -53,7 +53,7 @@
 16. Compose service bundles
 17. Track participation/resonance
 
-## 4. Archetypal Roles (Context-Derived from Bioregional Practice)
+## 4. Archetypal Personas (Context-Derived from Bioregional Practice)
 
 - **Community Weavers** – strengthen social fabric, build networks
 - **Landscape Stewards** – care for land and ecological flows
@@ -75,41 +75,6 @@
 - **Signal Amplifiers** – curate, remix, and uplift meaningful content
 - **Bridgewalkers** – move between worlds and weave coherence
 - **Emergence Hosts** – hold space for complex transitions and phase shifts
-
-## 5. Roles by Ecosystem
-
-### Empowered Agents Holarchy
-- Community Weavers
-- Bioregional Catalysts
-- Commons Architects
-- Embodied Practitioners
-
-### Global Meme Pool
-- Ecological Storytellers
-- Mythmakers
-- Thought Leaders
-- Artists
-- Signal Amplifiers
-
-### Global Service Registry
-- App Developers
-- Facilitators / Ritual Holders
-- Techno-Doulas
-- Resource Connectors
-- Service Designers
-
-### Visualizer Commons
-- Cartographers
-- HX Designers
-- Pattern Detectives
-- Bridgewalkers
-
-### Natural Resource Commons
-- Landscape Stewards
-- Commons Architects
-- Resource Connectors
-- Living Systems Educators
-- Stewardship Crews
 
 ## 🧭 Core MAP MVP: Minimal Viable Mapps
 

@@ -1,6 +1,6 @@
-> 🚧 **Draft in Progress** — This narrative was AI-Generated -- it is just a sketch of possibilities.
+####> 🚧 **Draft in Progress** — This narrative was AI-Generated -- it is just a sketch of possibilities.
 
-# MAP Menu Structure & Use Case Flows
+# MAP Menu Structure & Supporting Flows
 
 This document outlines the primary **Human Experience (HX)** structure of the MAP platform: the top-level menu system and the interaction flows each menu item enables. It reflects MAP’s core philosophy of agent sovereignty, memetic expression, and trust-based coordination—expressed through practical, actionable entry points.
 
