@@ -1,71 +1,62 @@
-# UC: Create or Edit Holon
+# UC: Create / View / Edit Holon
 
 **Description:**  
-Agent creates a new holon to represent something meaningful—such as an agreement, offering, event, intention, or shared artifact—or edits an existing one they have permission to modify.
+An agent creates a new holon of any HolonType, or views and modifies an existing one. This use case serves as a generic pattern for all holonic CRUD interactions.
 
-**Ecosystem Relationships:**
+**Ecosystem Relationships**
 
 **Mapps Involved:**
-- Holon Editor
-- MAP Navigator
+- [Holon Editor](../mapps/holon-editor.md)
 
 **Holon Types:**
-- Holon (generic)
-- Relationship Holon
-- Space Holon (if nested or linked)
+- Any [HolonType](../holon-types.md)
 
 **Ecosystems Supported:**
-- Empowered Agents Holarchy
-- Visualizer Commons
-- Global Service Registry
+- [Empowered Agents Holarchy](../ecosystem-activation.md#1-empowered-agents-holarchy)
+- [Natural Resource Commons](../ecosystem-activation.md#5-natural-resource-commons)
+- [Global Meme Pool](../ecosystem-activation.md#2-global-meme-pool)
+- [Local Service Networks](../ecosystem-activation.md#3-global-service-registry)
 
 **Personas Likely Involved:**
-- [Techno-Doula](/personas/techno-doula.md)
-- [Commons Architect](/personas/commons-architect.md)
+- [Techno-Doula](../personas/techno-doula.md)
+- [Commons Architect](../personas/commons-architect.md)
+- [Cartographer](../personas/cartographer.md)
+- [Regenerative Actor](../personas/regenerative-actor.md)
 
-**Dependencies:**
-- Agent must be a member of at least one space with write permission
+<details>
+<summary><strong>Use Case Details</strong></summary>
 
----
+**Preconditions:**
+- Agent is authenticated
+- Agent has permissions to create or edit the relevant HolonType
 
-**Initiating Actor:**  
-Agent with permission to create or edit holons in a space
+**Post-conditions:**
+- New holon is created and linked into its contextual network
+- Existing holon is updated with revised data
 
-**Supporting Actors:**  
-(optional co-authors, stewards, or reviewers)
-
-**Preconditions:**  
-Agent is authenticated and has permission
-
-**Post-conditions:**  
-A new or updated holon is saved and visible within the space
-
-**Assumptions:**  
-Schema is stable and supported holon types are known
-
----
+**Assumptions:**
+- Holons follow a flexible but type-constrained schema
+- Certain holon types may trigger downstream effects (e.g., notifications, indexing, replication)
 
 ### Main Flow
+1. Agent initiates holon creation or selection via the Holon Editor
+2. Chooses HolonType (if new), or retrieves existing holon
+3. Fills out holon metadata, properties, and references
+4. Saves holon to distributed persistence layer
+5. Editor confirms creation/update and returns to viewing context
 
-1. Agent opens Holon Editor (create or edit mode)
-2. Enters metadata: type, title, description, relationships
-3. Saves the holon and links it to relevant contexts or other holons
+### Wireframes
+- Holon creation form (type picker, property fields)
+- Holon detail view (tabs or sections for metadata, references, actions)
 
-??? "Alternate Flows"
+### GitHub Issues
+- [ ] Dynamic form rendering from HolonType definitions
+- [ ] Holon validation and save logic
+- [ ] Multi-type Holon search interface
 
-    - Agent cancels before saving
-    - Validation fails (e.g., required fields missing)
+### Implementation Notes
+- May benefit from reusable components for property/value-type widgets
+- DAHN may dynamically switch visualizers based on holon type
+- HolonEditor UX should be context-aware (Space-local vs. global)
 
-??? "Wireframes"
-
-    *(Include mockups of generic and specialized holon editors)*
-
-??? "GitHub Issues"
-
-    - [ ] Add support for general holon editing
-    - [ ] Implement schema-driven form rendering
-
-??? "Implementation Notes"
-
-    - Should support composability (i.e., related holons)
-    - Future: render type-specific UI (e.g., Promise Agreement, Offering, Event)
+</details>

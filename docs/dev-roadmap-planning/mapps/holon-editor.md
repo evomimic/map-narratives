@@ -17,10 +17,13 @@ The Holon Editor allows agents to co-create the fundamental units of the MAP: Ho
 
 ---
 
-## 🔗 Related
+## 🧰 Use Cases Offered
 
-- Appears in: [Use Case: Create/Edit Holon](../use-cases/create-edit-holon.md)
-- Connects to: [Holon Gallery](./holon-gallery.md), [Service Publisher](./service-publisher.md)
-- Supports Ecosystems: Visualizer Commons, Global Service Registry
+- [Create / View / Edit Holon](../use-cases/create-edit-holon.md)
 
 ---
+
+## 🔗 Related
+
+- Connects to: [Holon Gallery](./holon-gallery.md), [Service Publisher](./service-publisher.md)
+- Supports Ecosystems: Visualizer Commons, Global Service Registry

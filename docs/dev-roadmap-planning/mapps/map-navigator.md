@@ -1,4 +1,4 @@
-# MAP Navigator / Search
+## MAP Navigator / Search
 
 _“Let me search and move across the entire living MAP.”_
 
@@ -16,10 +16,14 @@ The MAP Navigator helps agents locate relevant content and relationships across 
 
 ---
 
-## 🔗 Related
+## 📒 Use Cases Offered
 
-- Appears in: [Use Case: View Holons in Space](../use-cases/view-holons-in-space.md), [Browse Meme Pool](../use-cases/browse-meme-pool.md)
-- Connects to: [Holon Gallery](./holon-gallery.md), [Meme Pool Browser](./meme-pool-browser.md)
-- Supports Ecosystems: Visualizer Commons, Global Meme Pool
+- [Navigate Space](../use-cases/navigate-space.md)
+- [Query Space](../use-cases/query-space.md)
 
 ---
+
+## 🔗 Related
+
+- Connects to: [Holon Gallery](./holon-gallery.md), [Meme Pool Browser](./meme-pool-browser.md), [Geospatial Map Explorer](./geospatial-map-explorer.md)
+- Supports Ecosystems: Visualizer Commons, Global Meme Pool, Natural Resource Commons

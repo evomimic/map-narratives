@@ -17,10 +17,13 @@ Ritual Runner helps agents host intentional gatherings using predefined formats 
 
 ---
 
-## 🔗 Related
+## 📒 Use Cases Offered
 
-- Appears in: (TBD) Future Use Cases
-- Connects to: [Calendar Adapter](./calendar-adapter.md), [Holon Editor](./holon-editor.md)
-- Supports Ecosystems: Global Meme Pool, Visualizer Commons
+- [Participate in Ritual](../use-cases/participate-in-ritual.md)
 
 ---
+
+## 🔗 Related
+
+- Connects to: [Calendar Adapter](./calendar-adapter.md), [Holon Editor](./holon-editor.md)
+- Supports Ecosystems: Global Meme Pool, Visualizer Commons

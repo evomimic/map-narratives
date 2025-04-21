@@ -1,71 +1,57 @@
-## UC: Define LifeCode
+# UC: Define / View / Edit LifeCode
 
 **Description:**  
-Agent selects values, principles, and memes from the Global Meme Pool that resonate with their identity and worldview. This becomes their cultural fingerprint on the MAP.
+Agents define or update the LifeCode for a given Space. LifeCode defines shared values, norms, and memetic signatures that guide conduct within a Space.
 
-??? "Ecosystem Relationships"
+**Ecosystem Relationships**
 
-    **Mapps Involved:**
-    - LifeCode Definer
-    - Meme Pool Browser
+**Mapps Involved:**
+- [Holon Editor](../mapps/holon-editor.md)
 
-    **Holon Types:**
-    - LifeCode Stack Holon
-    - Meme Holon
-    - Agent Holon
+**Holon Types:**
+- [LifeCode](../holon-types.md#lifecode) [C]
 
-    **Ecosystems Supported:**
-    - Global Meme Pool
-    - Empowered Agents Holarchy
+**Ecosystems Supported:**
+- [Empowered Agents Holarchy](../ecosystem-activation.md#1-empowered-agents-holarchy)
+- [Natural Resource Commons](../ecosystem-activation.md#5-natural-resource-commons)
 
-    **Personas Likely Involved:**
-    - [Community Weaver](/personas/community-weaver.md)
-    - [Ecological Storyteller](/personas/ecological-storyteller.md)
+**Personas Likely Involved:**
+- [Regenerative Actor](../personas/regenerative-actor.md)
+- [Community Weaver](../personas/community-weaver.md)
+- [Ecological Storyteller](../personas/ecological-storyteller.md)
+- [Commons Architect](../personas/commons-architect.md)
 
-    **Dependencies:**
-    - Agent profile must already exist
-    - Meme Pool must be populated
+???+ "Use Case Details"
 
----
+    **Preconditions:**  
+    - Agent is a member of the Space  
+    - Agent has sufficient permission to modify the Space's LifeCode  
 
-**Initiating Actor:**  
-Person Agent
+    **Post-conditions:**  
+    - LifeCode holon is created or updated  
+    - Associated Space reflects new LifeCode  
 
-**Supporting Actors:**  
-(n/a)
+    **Assumptions:**  
+    - Each Space has exactly one associated LifeCode  
+    - LifeCode changes may trigger social or governance reviews  
 
-**Preconditions:**  
-Agent has an existing Profile
+    ### Main Flow
+    1. Agent selects the target Space  
+    2. Navigates to its LifeCode view  
+    3. Enters or modifies LifeCode text and metadata  
+    4. Submits changes  
+    5. System updates LifeCode holon and logs the change  
 
-**Post-conditions:**  
-Agent’s LifeCode Stack Holon is created and linked to their Agent Holon
+    ### Wireframes
+    - LifeCode editing form with preview  
+    - Change history or governance review prompt (optional)
 
-**Assumptions:**  
-Memes are discoverable and understandable
+    ### GitHub Issues
+    - [ ] Schema for LifeCode holon  
+    - [ ] Editing UX for long-form text + structured metadata  
+    - [ ] Governance workflow integration (optional)  
 
----
-
-### Main Flow
-
-1. Agent opens the LifeCode Definer
-2. Searches for and selects relevant memes
-3. Assembles selected memes into a personal LifeCode stack
-4. Submits stack, linking it to their Agent identity
-
-??? "Alternate Flows"
-
-    - Agent removes or reorders memes before submission
-    - Agent saves LifeCode in draft mode
-
-??? "Wireframes"
-
-    *(Wireframe pending for LifeCode stack builder interface)*
-
-??? "GitHub Issues"
-
-    - [ ] Add “LifeCode stack creation” to MVP milestone
-
-??? "Implementation Notes"
-
-    - Need UX patterns for meme tagging and visual clustering
-    - Consider onboarding flow from Profile Manager → LifeCode
+    ### Implementation Notes
+    - Treat LifeCode as versioned content  
+    - May require notifications to Space members or stewards  
+    - Suggest templates and examples to guide authorship

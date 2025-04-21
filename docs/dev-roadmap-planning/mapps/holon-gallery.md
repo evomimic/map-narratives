@@ -17,10 +17,13 @@ The Holon Gallery gives agents a way to browse, search, and explore the rich div
 
 ---
 
-## 🔗 Related
+## 📒 Use Cases Offered
 
-- Appears in: [Use Case: View Holons in Space](../use-cases/view-holons-in-space.md)
-- Connects to: [Holon Editor](./holon-editor.md), [MAP Navigator / Search](./map-navigator.md)
-- Supports Ecosystems: Visualizer Commons, Empowered Agents Holarchy
+- [View Holons in Space](../use-cases/view-holons-in-space.md)
 
 ---
+
+## 🔗 Related
+
+- Connects to: [Holon Editor](./holon-editor.md), [MAP Navigator / Search](./map-navigator.md)
+- Supports Ecosystems: Visualizer Commons, Empowered Agents Holarchy

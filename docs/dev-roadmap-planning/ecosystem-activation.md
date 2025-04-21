@@ -1,4 +1,4 @@
-# MAP Ecosystem Activation View
+# MAP Ecosystem Activation
 
 ### Regenerative coordination for sovereign agents in a complex world
 
@@ -6,221 +6,295 @@ The **Memetic Activation Platform (MAP)** is a living, decentralized coordinatio
 
 At its heart, MAP helps **agents** — people, collectives, communities — articulate their **values** and **offers**, coordinate through **consent-based agreements**, and flow **vital value** across sovereign boundaries.
 
-The MAP is not a single app — it’s an **ecosystem platform** aimed at fostering the emergence of self-sustaining, yet mutally reinforcing ecosystems. The initial release of the MAP is intended to seed each of the following ecosystems.
+The MAP is not a single app — it’s an **ecosystem platform** aimed at fostering the emergence of self-sustaining, yet mutually reinforcing ecosystems. The initial release of the MAP is intended to seed each of the following ecosystems.
 
 ![img_1.png](img_1.png)
 
 ---
 
+## Seeding Regenerative Ecosystem Cycles
+
+Each of the five MAP ecosystems is designed to become a self-sustaining cycle of participation — a generative system where key roles, tools, relationships, and flows reinforce each other over time. But these cycles don’t emerge on their own. They require intentional design, a minimal threshold of activity, and just enough shared momentum to get started.
+
+This section describes what it takes to seed each ecosystem — not in its final form, but in its **minimally viable** state. Each ecosystem must reach a point where value flows begin to **self-reinforce**: where contributors are supported, roles are clear, and each new action increases the likelihood of the next.
+
+These ecosystems are not isolated silos. They are designed to be **mutually reinforcing**, with flows and feedback loops linking them together. A vibrant Meme Pool helps activate the Agents Holarchy. The Service Registry depends on participation tools from the other ecosystems. The Visualizer Commons reveals and strengthens alignment across all layers.
+
+For MAP’s initial release, the goal is not to “complete” each ecosystem, but to get at least a few of them **cycling in a healthy, living pattern** — enough for early adopters to engage meaningfully, and for early value loops to begin forming. What follows is a closer look at each ecosystem, how it functions, and what minimum structures are needed to activate it.
+
+---
+
+??? "🌾 Ecosystem Activation Design Principles"
+
+    **1. Minimal Viable Participation**  
+    Each ecosystem should support a small but complete cycle of participation — where someone can enter, contribute, and receive value — even in the absence of full network maturity.
+
+    **2. Role + Flow Coherence**  
+    Key _personas_ must have clear, meaningful actions they can take, linked to real _value flows_. Without clarity of “what I do” and “what happens when I do it,” activation stalls.
+
+    **3. Composable, Reusable Patterns**  
+    Holons, memes, and mapps should be modular and composable. The more they can be reused across contexts, the more quickly the ecosystem gains traction and coherence.
+
+    **4. Memetic and Structural Alignment**  
+    Tools (mapps) and content (memes) must align with the cultural DNA of the community. Misalignment creates friction; resonance accelerates uptake.
+
+    **5. Cross-Ecosystem Reinforcement**  
+    Activation is strongest when cycles reinforce each other. For example, meme curation helps agent alignment, which fuels service clarity, which increases discoverability and reuse.
+
+    **6. Early Value Loops**  
+    A successful ecosystem must form value loops early — even with minimal users — where effort leads to feedback, recognition, or utility. These loops are the scaffolding for scale.
+
+    **7. Trustable Entry Points**  
+    Onboarding into any ecosystem should be emotionally and cognitively welcoming. This includes clear agreements, transparent norms, and safe-to-fail early actions.
+
+---
+
+### 📚 Document Structure: What You’ll Find Here
+
+This document describes the five core **MAP ecosystems** and what it takes to activate each one.
+
+Each ecosystem section includes:
+
+- **Ecosystem Overview**  
+  A brief narrative describing the purpose and role of this ecosystem within MAP.
+
+- **Essential Use Cases**  
+  Key flows of value or interaction that represent the minimum meaningful engagement.  
+  → See the full list of [Use Cases](use-cases/use-case-model.md)
+
+- **Key Personas**  
+  Archetypal roles likely to participate in or catalyze this ecosystem.  
+  → See all [Persona Profiles](personas/personas.md)
+
+- **Core Mapps**  
+  The apps (mapps) that enable this ecosystem’s workflows and interactions.  
+  → See the [MVP Mapps](mapps/mapps-mvp.md)
+
+- **Holon Types**  
+  The core data/identity structures in play, each marked by the expected interaction level:  
+  `[R]`ead, `[CR]`eate/Read, `[RU]`pdate/Read, `[CRUD]` full lifecycle.  
+  → See the complete list of [Holon Types](holon-types.md)
+
+- **Ecosystem Dependencies**  
+  Highlights which other ecosystems this one depends on for activation — and which ones it helps support.
+
+Each of the linked elements above is maintained in its own dedicated file. This structure allows modular development, cross-linking, and reusability across the broader MAP documentation.
+
+---
+
+# Ecosystem Activation
+
 ## 1. Empowered Agents Holarchy
 
-**Essential Use Cases:**
-- Create/manage personal profile
-- Join or create Spaces (e.g. crews, collectives, projects)
-- Form and evolve Holons with clear roles and relationships
-- Define intentions, offers, and needs
-- Participate in rituals or group processes
+The Empowered Agents Holarchy is the foundational ecosystem of MAP. It supports the formation of sovereign agents — individuals and collectives — who can participate meaningfully, express their values, make and fulfill offers, and engage in collaborative structures.
 
-**Key Personas:**
-- [Community Weaver](personas.md#community-weaver)
-- [Bioregional Catalyst](personas.md#bioregional-catalyst)
-- [Commons Architect](personas.md#commons-architect)
-- [Embodied Practitioner](personas.md#embodied-practitioner)
-- [Emergence Host](personas.md#emergence-host)
+At the heart of this ecosystem is the **Space** — the context where interaction happens. Every *Person* who joins the MAP receives their own **Personal Space** by default. This ensures a base level of autonomy, sovereignty, and a private context for managing identity, relationships, and preferences.
 
-**Core Mapps:**
-- Profile Manager
-- Space Explorer
-- Holon Gallery
-- Holon Editor
-- Notification Center
-- Calendar Adapter
-- Ritual Runner
+A Space defines:
+- The set of [Agents](holon-types.md#agent) who belong to it
+- Its own [LifeCode](holon-types.md#lifecode)
+- A [DataGrove] for storing knowledge and holons scoped to that Space
+- The [Mapps](mapps/mapps-mvp.md) that are enabled for it
+- Its **interaction medium**, which may include rituals, chat forums, or external protocols like REST/OpenAPI, JLINC/JLINX, or Beckn
 
-**Required Holon Types:**
-- Agent Holon
-- Space Holon
-- Role Holon
-- Relationship Holon
+Spaces may be personal (e.g. MySpace), social (neighborhoods, co-ops, families), or collective (guilds, crews, projects, movements). When mature, a Space may itself become an Agent.
 
-**Created Holon Types:**
-- Intention Holons
-- Agreement Holons
-- Group Identity Holons
+### Essential Use Cases
+- [Create Space](use-cases/create-space.md)
+- [Invite / Join Space](use-cases/invite-join-space.md)
+- [View / Edit Space Profile](use-cases/view-edit-space-profile.md)
+- [Define Lifecode](use-cases/define-life-code.md)
+- [Navigate Space](use-cases/navigate-space.md)
+- [Query Space](use-cases/query-space.md)
+- [Create / Edit Holon](use-cases/create-edit-holon.md)
+- [View / Edit / Delete Holon](use-cases/view-edit-delete-holon.md)
+- [Schedule Event](use-cases/schedule-event.md)
+- [Invite Others to Event](use-cases/invite-to-event.md)
+- [RSVP to Event](use-cases/rsvp-to-event.md)
 
-**Depends On:**
-- Meme Pool (for value alignment)
-- Visualizer Commons (for shared maps and rhythms)
-- Natural Resource Commons (for supporting participation)
+### Key Personas
+- [Community Weaver](personas/community-weaver.md)
+- [Bioregional Catalyst](personas/bioregional-catalyst.md)
+- [Commons Architect](personas/commons-architect.md)
+- [Embodied Practitioner](personas/embodied-practitioner.md)
+- [Emergence Host](personas/emergence-host.md)
+- [Regenerative Actor](personas/regenerative-actor.md)
 
-**Supports:**
-- Activation of all other ecosystems via agent expression and coordination
+### Core Mapps
+- [Profile Manager](mapps/profile-manager.md)
+- [Space Explorer](mapps/space-explorer.md)
+- [Holon Gallery](mapps/holon-gallery.md)
+- [Holon Editor](mapps/holon-editor.md)
+- [Notification Center](mapps/notification-center.md)
+- [Calendar Adapter](mapps/calendar-adapter.md)
+- [Ritual Runner](mapps/ritual-runner.md)
 
+### Holon Types
+- `[CRUD]` [Agent](holon-types.md#agent)
+- `[CRUD]` [Space](holon-types.md#space)
+- `[CR]` [Role](holon-types.md#role)
+- `[CRUD]` [Offer](holon-types.md#offer)
+- `[CRUD]` [Agreement](holon-types.md#agreement)
+- `[CRUD]` [LifeCode](holon-types.md#lifecode)
+- `[CRUD]` [Event](holon-types.md#event)
+
+### Depends on Ecosystems
+- [Global Meme Pool](#2-global-meme-pool) — for shared values, cultural resonance, and symbolic alignment
+- [Visualizer Commons](#4-visualizer-commons) — for alignment feedback, dashboards, and sensemaking tools
+
+### Supports Ecosystems
+- All others — by enabling meaningful participation, contribution, and consent-based coordination
 
 ---
 
 ## 2. Global Meme Pool
 
-**Essential Use Cases:**
-- Create and steward memes (values, rituals, principles, archetypes)
-- Browse, remix, and align with cultural content
-- Define LifeCodes by linking to memes
-- Use memes in rituals and communications
+The **Global Meme Pool** is a federated netwprk of well-stewarded cultural commons. It contains the values, principles, prompts, patterns, rituals, and archetypes that shape our collective identity, guide our actions, and reflect our deepest regenerative intentions.
 
-**Key Personas:**
-- [Mythmaker](personas.md#mythmaker)
-- [Ecological Storyteller](personas.md#ecological-storyteller)
-- [Thought Leader](personas.md#thought-leader)
-- [Artist](personas.md#artist)
-- [Signal Amplifier](personas.md#signal-amplifier)
+Memes are **Holons**, meaning they are active, remixable, and exist within the broader relational graph of the MAP. Through DAHN visualizers, agents can explore meme lineages, remix patterns, and resonance heatmaps — helping cultural meaning emerge and evolve.
 
-**Core Mapps:**
-- Meme Pool Browser
-- Holon Editor
-- LifeCode Definer
-- Ritual Runner
-- MAP Navigator
+### Essential Use Cases
+- [Create / Edit Holon](use-cases/create-edit-holon.md)
+- [View / Edit / Delete Holon](use-cases/view-edit-delete-holon.md)
+- [Navigate Space](use-cases/navigate-space.md)
+- [Query Space](use-cases/query-space.md)
 
-**Required Holon Types:**
-- Meme Holons
-- Archetype Holons
-- Tag Holons
+### Key Personas
+- [Mythmaker](personas/mythmaker.md)
+- [Ecological Storyteller](personas/ecological-storyteller.md)
+- [Thought Leader](personas/thought-leader.md)
+- [Artist](personas/artist.md)
+- [Signal Amplifier](personas/signal-amplifier.md)
 
-**Created Holon Types:**
-- New Meme Holons
-- LifeCode Stack Holons
-- Ritual Holons
+### Core Mapps
+- [Meme Pool Browser](mapps/meme-pool-browser.md)
+- [Holon Editor](mapps/holon-editor.md)
+- [Holon Gallery](mapps/holon-gallery.md)
+- [MAP Navigator / Search](mapps/map-navigator.md)
+- [Ritual Runner](mapps/ritual-runner.md)
 
-**Depends On:**
-- Empowered Agents Holarchy
-- Visualizer Commons
+### Holon Types
+- [Meme](holon-types.md#meme) [CRUD]
+- [MemeFamily](holon-types.md#memefamily) [CRU]
+- [MemeGroup](holon-types.md#memegroup) [CRU]
+- [Memeplex](holon-types.md#memeplex) [CRU]
+- [PromiseType](holon-types.md#promisetype) [CRU]
+- [OfferType](holon-types.md#offertype) [CRU]
+- [GovernanceModel](holon-types.md#governancemodel) [CRU]
 
-**Supports:**
-- Cultural coherence, shared language, and rituals across ecosystems
+### Depends on Ecosystems
+- [Empowered Agents Holarchy](#1-empowered-agents-holarchy)
+- [Visualizer Commons](#4-visualizer-commons)
 
+### Supports Ecosystems
+- [Global Service Registry](#3-global-service-registry)
+- [Visualizer Commons](#4-visualizer-commons)
 
 ---
 
 ## 3. Global Service Registry
 
-**Essential Use Cases:**
-- Define, publish, and maintain services
-- Discover and request services
-- Compose service bundles
-- Coordinate delivery or use
+The **Global Service Registry** is where services, offers, and agreements live. It supports the discovery and activation of capability across the MAP.
 
-**Key Personas:**
-- [App Developer](personas.md#app-developer)
-- [Facilitator / Ritual Holder](personas.md#ritual-holder)
-- [Techno-Doula](personas.md#techno-doula)
-- [Resource Connector](personas.md#resource-connector)
-- [Service Architect](personas.md#service-architect)
+Each service defines its:
+- [Offer](holon-types.md#offer)
+- [PromiseType](holon-types.md#promisetype)
+- [GovernanceModel](holon-types.md#governancemodel)
 
-**Core Mapps:**
-- Holon Editor
-- Service Publisher
-- Holon Gallery
-- Notification Center
-- Ritual Runner
-- Calendar Adapter
+### Essential Use Cases
+- [Create / Edit Holon](use-cases/create-edit-holon.md)
+- [View / Edit / Delete Holon](use-cases/view-edit-delete-holon.md)
+- [Navigate Space](use-cases/navigate-space.md)
+- [Query Space](use-cases/query-space.md)
+- [Handle Inbound Notification](use-cases/handle-inbound-notification.md)
 
-**Required Holon Types:**
-- Service Holons
-- Interface Holons
-- Credential Holons
+### Key Personas
+- [Mapp Developer](personas/mapp-developer.md)
+- [Ritual Holder](personas/ritual-holder.md)
+- [Techno-Doula](personas/techno-doula.md)
+- [Resource Connector](personas/resource-connector.md)
+- [Service Architect](personas/service-architect.md)
 
-**Created Holon Types:**
-- Service Bundles
-- Offering Holons
-- Feedback Holons
+### Core Mapps
+- [Holon Editor](mapps/holon-editor.md)
+- [Service Publisher](mapps/service-publisher.md)
+- [Holon Gallery](mapps/holon-gallery.md)
+- [Notification Center](mapps/notification-center.md)
+- [Calendar Adapter](mapps/calendar-adapter.md)
+- [Ritual Runner](mapps/ritual-runner.md)
 
-**Depends On:**
-- Agents Holarchy
-- Meme Pool
-- Visualizer Commons
-
-**Supports:**
-- Tool and capability availability across the entire ecosystem
-
+### Holon Types
+- [Service](holon-types.md#service) [CRUD]
+- [Offer](holon-types.md#offer) [CRUD]
+- [PromiseType](holon-types.md#promisetype) [CRU]
+- [OfferType](holon-types.md#offertype) [CRU]
+- [GovernanceModel](holon-types.md#governancemodel) [CRU]
+- [Agreement](holon-types.md#agreement) [CR]
+- [Credential](holon-types.md#credential) [CRU]
 
 ---
 
 ## 4. Visualizer Commons
 
-**Essential Use Cases:**
-- Map relationships, flows, participation
-- Visualize alignment, resonance, and trends
-- Provide feedback loops and sensemaking tools
+The **Visualizer Commons** enables the dynamic rendering of the MAP — through visualizers used in DAHN (Dynamic Adaptive Holon Navigator).
 
-**Key Personas:**
-- [Cartographer](personas.md#cartographer)
-- [HX Designer](personas.md#hx-designer)
-- [Pattern Detective](personas.md#pattern-detective)
-- [Bridgewalker](personas.md#bridgewalker)
+### Essential Use Cases
+- [Contribute / Update Visualizer](use-cases/contribute-visualizer.md)
+- [Navigate Space](use-cases/navigate-space.md)
+- [Query Space](use-cases/query-space.md)
 
-**Core Mapps:**
-- MAP Navigator / Search
-- Geospatial Map View
-- Calendar Adapter
-- Holon Gallery
-- LifeCode Lens / Alignment Maps
+### Key Personas
+- [HX Designer](personas/hx-designer.md)
+- [Cartographer](personas/cartographer.md)
+- [Pattern Detective](personas/pattern-detective.md)
+- [Bridgewalker](personas/bridgewalker.md)
 
-**Required Holon Types:**
-- Visualization Holons
-- Lens Holons
-- Metric Holons
+### Core Mapps
+- [MAP Navigator / Search](mapps/map-navigator.md)
+- [Geospatial Map Explorer](mapps/geospatial-map-explorer.md)
+- [Calendar Adapter](mapps/calendar-adapter.md)
+- [Holon Gallery](mapps/holon-gallery.md)
 
-**Created Holon Types:**
-- Relational, semantic, and spatial maps
-- Alignment Models
-- Trend Holons
-
-**Depends On:**
-- All other ecosystems for data
-- Meme Pool for symbolic framing
-
-**Supports:**
-- Coherence, feedback, shared understanding
-
+### Holon Types
+- [Metric](holon-types.md#metric) [CRU]
+- [Visualizer](holon-types.md#visualizer) [CRUD] -- this includes Canvas Visualizers, Node Visualizers, Property Visualizers, Graph Visualizers, and Collection Visualizers
 
 ---
 
 ## 5. Natural Resource Commons
 
-**Essential Use Cases:**
-- Define and steward shared resources
-- Match needs with offers
-- Track flows and sustainability
-- Govern access and regeneration
+This ecosystem brings the MAP into real-world coordination — managing ecological flows, shared assets, and stewardship.
 
-**Key Personas:**
-- [Landscape Steward](personas.md#landscape-steward)
-- [Commons Architect](personas.md#commons-architect)
-- [Resource Connector](personas.md#resource-connector)
-- [Living Systems Educator](personas.md#living-systems-educator)
-- [Stewardship Crew](personas.md#stewardship-crew)
+### Essential Use Cases
+- [Create / Edit Holon](use-cases/create-edit-holon.md)
+- [View / Edit / Delete Holon](use-cases/view-edit-delete-holon.md)
+- [Navigate Space](use-cases/navigate-space.md)
+- [Query Space](use-cases/query-space.md)
+- [Schedule Event](use-cases/schedule-event.md)
+- [Invite Others to Event](use-cases/invite-to-event.md)
+- [RSVP to Event](use-cases/rsvp-to-event.md)
 
-**Core Mapps:**
-- Holon Editor
-- Holon Gallery
-- Profile Manager
-- Notification Center
-- Calendar + Geospatial Layers
+### Key Personas
+- [Landscape Steward](personas/landscape-steward.md)
+- [Commons Architect](personas/commons-architect.md)
+- [Resource Connector](personas/resource-connector.md)
+- [Life Systems Educator](personas/life-systems-educator.md)
+- [Stewardship Crew](personas/stewardship-crew.md)
 
-**Required Holon Types:**
-- Resource Holons
-- Stewardship Agreements
-- Exchange Holons
+### Core Mapps
+- [Holon Editor](mapps/holon-editor.md)
+- [Holon Gallery](mapps/holon-gallery.md)
+- [Profile Manager](mapps/profile-manager.md)
+- [Notification Center](mapps/notification-center.md)
+- [Calendar Adapter](mapps/calendar-adapter.md)
+- [Geospatial Map Explorer](mapps/geospatial-map-explorer.md)
 
-**Created Holon Types:**
-- Commons Maps
-- Resource Flow Holons
-- Regenerative Protocol Holons
-
-**Depends On:**
-- Agents Holarchy (for activation)
-- Visualizer Commons (for flow tracking)
-- Service Registry (for resourcing methods)
-
-**Supports:**
-- Long-term sustainability, grounded coordination, regenerative culture
+### Holon Types
+- [Resource](holon-types.md#resource) [CRUD]
+- [SpatialArea](holon-types.md#spatialarea) [CRUD]
+- [Event](holon-types.md#event) [CRUD]
+- [Offer](holon-types.md#offer) [CRUD]
+- [Agreement](holon-types.md#agreement) [CRU]
+- [GovernanceModel](holon-types.md#governancemodel) [CRU]
+- [PromiseType](holon-types.md#promisetype) [CRU]
+- [OfferType](holon-types.md#offertype) [CRU]

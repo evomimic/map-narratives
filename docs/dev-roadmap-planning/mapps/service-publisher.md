@@ -16,8 +16,13 @@ The Service Publisher enables agents, crews, and organizations to describe and p
 
 ---
 
+## 📒 Use Cases Offered
+
+_(TBD – Future Use Cases forthcoming)_
+
+---
+
 ## 🔗 Related
 
-- Appears in: (TBD) Future Use Cases
 - Connects to: [Holon Editor](./holon-editor.md), [Service Composer](./service-composer.md)
 - Supports Ecosystems: Global Service Registry

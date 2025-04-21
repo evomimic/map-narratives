@@ -60,6 +60,18 @@ While agreements may **expire**, be **revoked**, or become **inactive**, the Age
 
 ---
 
+## DAHN (Dynamic Adaptive Holon Navigator)
+
+## DAHN (Dynamic Adaptive Holon Navigator)
+
+A personalized, dynamic interface layer for exploring the MAP holon graph. DAHN empowers each agent to shape their own experience — not just by choosing settings, but by composing the very way information is seen, explored, and interacted with.
+
+Rather than each app imposing its own interface, DAHN provides a **coherent visual and interaction layer across all Mapps**. This coherence is achieved through dynamic selection of visualizers — modular components contributed by HX designers to the federated [Visualizer Commons](#visualizer-commons).
+
+DAHN embodies the MAP design philosophy: **putting agents at the center of their digital experience**, enabling expressive, adaptable, and trustable interfaces that evolve with collective and individual needs.
+
+---
+
 ## Dance
 
 A **Dance** is a named, invocable action that a [Holon](#holon) can perform or participate in — such as querying data, initiating a service, accepting an offer, or responding to a relationship.
@@ -108,7 +120,7 @@ Each `DanceRequest` contains:
 Like all things in the MAP, the DanceRequest is itself a [Holon](#holon) — with its own type descriptor, provenance, access policy, and potential for visual representation.
 
 DanceRequests can be created by:
-- Human users interacting through DAHN or other interfaces
+- Human users interacting through [DAHN](#dahn-dynamic-adaptive-holon-navigator) 
 - Other Holons (e.g., service Holons triggering dances)
 - External systems interfacing through the MAP Uniform API
 
@@ -294,7 +306,7 @@ At its core is the `dance()` function, which accepts a `DanceRequest` and return
 - The **DanceRequest** specifies:
   - The Holon (or relationship) initiating the Dance
   - Parameters for the action (e.g., queries, inputs, filters)
-  - Optionally, an [OpenCypher](#opencypher) query — enabling expressive graph traversal and transformation
+  - Optionally, an [OpenCypher](https://opencypher.org/) query — enabling expressive graph traversal and transformation
 
 - The **DanceResponse** returns:
   - Results from the invocation (e.g., data, confirmation, computation)
@@ -324,7 +336,7 @@ Vital capital flows are explicitly tracked via [Promises](#promise) and [Agreeme
 
 A **Visualizer** is a Holon that describes how another Holon should be rendered and interacted with — in 2D, 3D, text, graph, gallery, immersive environment, or any other format.
 
-Visualizers are contributed to the [Visualizer Commons](#visualizer-commons) and selected at runtime by DAHN based on:
+Visualizers are contributed to the [Visualizer Commons](#visualizer-commons) and selected at runtime by [DAHN](#dahn-dynamic-adaptive-holon-navigator) based on:
 - The type of Holon
 - The preferences of the Agent viewing it
 - The popularity and contextual fit of available visualizers
@@ -333,6 +345,12 @@ Every Holon can reference one or more Visualizers, allowing radically different 
 
 > A Visualizer is not just a UI component — it is a **semantic lens**, a votable style, and a participatory aesthetic contribution to the shared experience of the MAP.
 > 
+---
+
+## Visualizer Commons
+
+A federated network of stewarded sets of [Visualizers](#visualizer). [DAHN](#dahn-dynamic-adaptive-holon-navigator) dynamically selects and configures visualizers from the _Visualizer Commons_ to present and enable interaction with the MAP' self-describing, active [Holons](#holon)
+
 ---
 
 ## We-Space

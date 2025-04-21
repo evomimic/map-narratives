@@ -17,8 +17,14 @@ The Profile Manager enables agents to establish their presence on the MAP by def
 
 ---
 
+## 📒 Use Cases Offered
+
+- [Create Space](../use-cases/create-space.md)
+- [View / Edit Space Profile](../use-cases/view-edit-space-profile.md)
+
+---
+
 ## 🔗 Related
 
-- Appears in: [Use Case: Create Profile](../use-cases/create-profile.md)
-- Connects to: [Geospatial Map View](./geospatial-map-view.md), [LifeCode Definer](./life-code-definer.md)
+- Connects to: [Geospatial Map View](./geospatial-map-explorer.md), [LifeCode Definer](./life-code-definer.md)
 - Supports Ecosystems: Empowered Agents Holarchy, Visualizer Commons

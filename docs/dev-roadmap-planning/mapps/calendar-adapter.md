@@ -17,8 +17,15 @@ The Calendar Adapter synchronizes external and internal rhythms by integrating w
 
 ---
 
+## 🧰 Use Cases Offered
+
+- [Schedule Event](../use-cases/schedule-event.md)
+- [Invite Others to Event](../use-cases/invite-to-event.md)
+- [RSVP to Event](../use-cases/rsvp-to-event.md)
+
+---
+
 ## 🔗 Related
 
-- Appears in: [Use Case: Join or Create Space](../use-cases/join-or-create-space.md)
 - Connects to: [Ritual Runner](./ritual-runner.md), [Notification Center](./notification-center.md)
 - Supports Ecosystems: Visualizer Commons, Natural Resource Commons

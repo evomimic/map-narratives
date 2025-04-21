@@ -17,8 +17,15 @@ The Meme Pool Browser opens the memetic layer of the ecosystem—offering discov
 
 ---
 
+## 📒 Use Cases Offered
+
+- [View / Edit / Delete Holon](../use-cases/view-edit-delete-holon.md)
+- [Query Space](../use-cases/query-space.md)
+- [Navigate Space](../use-cases/navigate-space.md)
+
+---
+
 ## 🔗 Related
 
-- Appears in: [Use Case: Browse Meme Pool](../use-cases/browse-meme-pool.md), [Create/Edit Meme](../use-cases/create-edit-meme.md)
-- Connects to: [LifeCode Definer](./life-code-definer.md), [MAP Navigator](./map-navigator.md)
+- Connects to: [LifeCode Definer](./life-code-definer.md), [MAP Navigator / Search](./map-navigator.md)
 - Supports Ecosystems: Global Meme Pool

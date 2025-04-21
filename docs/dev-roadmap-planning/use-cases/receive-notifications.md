@@ -1,70 +1,63 @@
 # UC: Receive Notifications
 
 **Description:**  
-Agent receives time-sensitive or context-aware updates from the spaces, people, or holons they’re connected to, routed through their preferred channels.
+An Agent views and interacts with notifications they have received — either immediately when delivered or at a later time via the Notification Center. Notifications may reflect system events, updates to subscribed Holons, invitations, or agreements awaiting action.
 
-**Ecosystem Relationships:**
+**Ecosystem Relationships**
 
 **Mapps Involved:**
-- Notification Center
+- [Notification Center](../mapps/notification-center.md)
 
 **Holon Types:**
-- Notification Holon
-- Agent Holon (subscriber)
-- Channel/Preference Holon
+- [CRUD Notification](../holon-types.md#notification)
 
 **Ecosystems Supported:**
-- Empowered Agents Holarchy
-- Global Service Registry
+- [Empowered Agents Holarchy](../ecosystem-activation.md#1-empowered-agents-holarchy)
+- [MAP Notification System](../ecosystem-activation.md#1-empowered-agents-holarchy)
 
 **Personas Likely Involved:**
-- [Signal Amplifier](/personas/signal-amplifier.md)
-- [Techno-Doula](/personas/techno-doula.md)
-
-**Dependencies:**
-- Agent has a profile and is connected to at least one holon or space
-- Notification channels are configured or default
+- [Regenerative Actor](../personas/regenerative-actor.md)
+- [Signal Amplifier](../personas/signal-amplifier.md)
+- [Techno-Doula](../personas/techno-doula.md)
 
 ---
 
-**Initiating Actor:**  
-System, triggered by event or state change
+???+ "Use Case Details"
 
-**Supporting Actors:**  
-Agent (receives, configures, responds)
+    **Initiating Actor:**  
+    Human Agent
 
-**Preconditions:**  
-Agent is subscribed to some kind of activity
+    **Supporting Actors:**  
+    System (Space-level or Agent-level) that routes notifications based on user-defined policies
 
-**Post-conditions:**  
-Agent is made aware of relevant activity or opportunity
+    **Preconditions:**  
+    - Notification has been logged in the Agent's I-Space  
+    - Notification Center preferences determine if/how it is surfaced
 
-**Assumptions:**  
-Notification adapter is configured to deliver over preferred channel (email, app, etc.)
+    **Post-conditions:**  
+    - Notification is marked read, acted upon, dismissed, or archived  
+    - Agent may be redirected to related holon or action
 
----
+    **Assumptions:**  
+    - Notification delivery venues and timing are under agent control  
+    - Mapps and Spaces publish events that are transformed into notifications  
+    - Notifications can remain quietly stored or be pushed with urgency
 
-### Main Flow
+    ### Main Flow
+    1. Agent opens the Notification Center (or receives a direct push)
+    2. System filters and displays relevant notifications per agent preferences
+    3. Agent reads or dismisses notification, or follows its CTA
+    4. Related action (e.g., join space, accept offer) may be triggered
+    5. Notification marked as read, archived, or left for later
 
-1. Triggering event occurs (e.g., new holon, comment, space activity)
-2. Notification Center determines routing per agent preferences
-3. Message is delivered (email, SMS, app notification, etc.)
+    ### Wireframes
+    - Notification Center inbox with filtering and grouping options
 
-??? "Alternate Flows"
+    ### GitHub Issues
+    - [ ] Notification schema finalization
+    - [ ] Digest/push delivery scheduler
+    - [ ] Integration with Agreement and Offer triggers
 
-    - Notification fails to send → log retry or fall back
-    - Agent unsubscribes or filters by tag/type
-
-??? "Wireframes"
-
-    *(Future: Notification feed panel and preferences UI)*
-
-??? "GitHub Issues"
-
-    - [ ] MVP notification delivery engine
-    - [ ] Adapter support: email + local browser
-
-??? "Implementation Notes"
-
-    - Notification metadata should include actor, holon, and space context
-    - Privacy and rate-limiting may be required
+    ### Implementation Notes
+    - Agent preferences may define "quiet" vs. "interruptive" delivery modes
+    - Space-level notification preferences may override individual settings

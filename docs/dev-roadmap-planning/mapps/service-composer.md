@@ -16,10 +16,13 @@ The Service Composer enables agents and crews to create reusable workflows by co
 
 ---
 
-## 🔗 Related
+## 📒 Use Cases Offered
 
-- Appears in: (TBD) Post-MVP Use Cases
-- Connects to: [Service Publisher](./service-publisher.md), [Ritual Runner](./ritual-runner.md)
-- Supports Ecosystems: Global Service Registry, Visualizer Commons
+_(TBD – post-MVP Use Cases forthcoming)_
 
 ---
+
+## 🔗 Related
+
+- Connects to: [Service Publisher](./service-publisher.md), [Ritual Runner](./ritual-runner.md)
+- Supports Ecosystems: Global Service Registry, Visualizer Commons

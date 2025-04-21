@@ -17,8 +17,14 @@ This mapp places MAP participants and Holons on an interactive map of the living
 
 ---
 
+## 🧰 Use Cases Offered
+
+- [Explore Geospatial Space](../use-cases/explore-geospatial-space.md)
+- [View/Edit Space Profile](../use-cases/view-edit-space-profile.md) -- to place agents geospatially
+
+---
+
 ## 🔗 Related
 
-- Appears in: [Use Case: Create Profile](../use-cases/create-profile.md), [Join or Create Space](../use-cases/join-or-create-space.md)
 - Connects to: [Space Explorer](./space-explorer.md), [MAP Navigator](./map-navigator.md)
 - Supports Ecosystems: Visualizer Commons, Natural Resource Commons

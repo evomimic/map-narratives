@@ -17,8 +17,16 @@ The Space Explorer helps agents navigate the social and organizational landscape
 
 ---
 
+## 📒 Use Cases Offered
+
+- [Create Space](../use-cases/create-space.md)
+- [Invite / Join Space](../use-cases/invite-join-space.md)
+- [Navigate Space](../use-cases/navigate-space.md)
+- [Query Space](../use-cases/query-space.md)
+
+---
+
 ## 🔗 Related
 
-- Appears in: [Use Case: Join or Create Space](../use-cases/join-or-create-space.md)
-- Connects to: [Geospatial Map View](./geospatial-map-view.md), [Holon Gallery](./holon-gallery.md)
+- Connects to: [Geospatial Map Explorer](./geospatial-map-explorer.md), [Holon Gallery](./holon-gallery.md)
 - Supports Ecosystems: Empowered Agents Holarchy, Global Service Registry

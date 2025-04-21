@@ -17,10 +17,15 @@ The Notification Center aggregates alerts from across the MAP ecosystem and deli
 
 ---
 
-## 🔗 Related
+## 📒 Use Cases Offered
 
-- Appears in: [Use Case: Receive Notifications](../use-cases/receive-notifications.md)
-- Connects to: [Profile Manager](./profile-manager.md), [Holon Gallery](./holon-gallery.md)
-- Supports Ecosystems: Empowered Agents Holarchy, Global Service Registry
+- [Handle Inbound Notification](../use-cases/handle-inbound-notification.md)
+- [View / Edit Notification Preferences](../use-cases/view-edit-notification-preferences.md)
+- [View Notifications](../use-cases/view-notifications.md)
 
 ---
+
+## 🔗 Related
+
+- Connects to: [Profile Manager](./profile-manager.md), [Holon Gallery](./holon-gallery.md)
+- Supports Ecosystems: Empowered Agents Holarchy, Global Service Registry

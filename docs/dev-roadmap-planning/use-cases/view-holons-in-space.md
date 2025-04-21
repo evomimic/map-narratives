@@ -18,8 +18,8 @@ Agent explores the holons that are visible and accessible within a specific Agen
 - Visualizer Commons
 
 **Personas Likely Involved:**
-- [Cartographer](/personas/cartographer.md)
-- [Pattern Detective](/personas/pattern-detective.md)
+- [Cartographer](../personas/cartographer.md)
+- [Pattern Detective](../personas/pattern-detective.md)
 
 **Dependencies:**
 - Agent must be a member of the selected space

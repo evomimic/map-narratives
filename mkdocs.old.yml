@@ -32,6 +32,7 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: docs
 
+
 nav:
   - Home: index.md
 
@@ -66,7 +67,6 @@ nav:
           - Service Composer: dev-roadmap-planning/mapps/service-composer.md
           - Service Publisher: dev-roadmap-planning/mapps/service-publisher.md
           - Space Explorer: dev-roadmap-planning/mapps/space-explorer.md
-          - Visualizer Commons: dev-roadmap-planning/mapps/visualizer-commons.md
       - Personas:
           - Persona Index: dev-roadmap-planning/personas/personas.md
           - Artist: dev-roadmap-planning/personas/artist.md
@@ -91,30 +91,28 @@ nav:
           - Stewardship Crew: dev-roadmap-planning/personas/stewardship-crew.md
           - Techno-Doula: dev-roadmap-planning/personas/techno-doula.md
           - Thought Leader: dev-roadmap-planning/personas/thought-leader.md
-          - Regenerative Actor: dev-roadmap-planning/personas/regenerative-actor.md
       - Use Case Model:
           - Use Case Model Overview: dev-roadmap-planning/use-cases/use-case-model.md
-          - Accept Offer: dev-roadmap-planning/use-cases/accept-offer.md
-          - Contribute Visualizer: dev-roadmap-planning/use-cases/contribute-visualizer.md
-          - Create / View / Edit Holon: dev-roadmap-planning/use-cases/create-edit-holon.md
-          - Create Space: dev-roadmap-planning/use-cases/create-space.md
-          - Define / View / Edit LifeCode: dev-roadmap-planning/use-cases/define-life-code.md
-          - Explore Geospatial Space: dev-roadmap-planning/use-cases/explore-geospatial-space.md
-          - Handle Inbound Notification: dev-roadmap-planning/use-cases/handle-inbound-notification.md
-          - Invite / Join Space: dev-roadmap-planning/use-cases/invite-join-space.md
-          - Invite Others to Event: dev-roadmap-planning/use-cases/invite-to-event.md
-          - Make Offer: dev-roadmap-planning/use-cases/make-offer.md
-          - Navigate Space: dev-roadmap-planning/use-cases/navigate-space.md
-          - Participate in Ritual: dev-roadmap-planning/use-cases/participate-in-ritual.md
-          - Query Space: dev-roadmap-planning/use-cases/query-space.md
+          - Menu Structure and Flows: dev-roadmap-planning/menu-flows.md
+          - Browse Meme Pool: dev-roadmap-planning/use-cases/browse-meme-pool.md
+          - Create/Edit Holon: dev-roadmap-planning/use-cases/create-edit-holon.md
+          - Create/Edit Meme: dev-roadmap-planning/use-cases/create-edit-meme.md
+          - Create Profile: dev-roadmap-planning/use-cases/create-profile.md
+          - Define LifeCode: dev-roadmap-planning/use-cases/define-life-code.md
+          - Join or Create Space: dev-roadmap-planning/use-cases/join-or-create-space.md
           - Receive Notifications: dev-roadmap-planning/use-cases/receive-notifications.md
-          - RSVP to Event: dev-roadmap-planning/use-cases/rsvp-to-event.md
-          - Schedule Event: dev-roadmap-planning/use-cases/schedule-event.md
-          - View / Edit / Delete Holon: dev-roadmap-planning/use-cases/view-edit-delete-holon.md
-          - View / Edit Notification Preferences: dev-roadmap-planning/use-cases/view-edit-notification-preferences.md
-          - View / Edit Space Profile: dev-roadmap-planning/use-cases/view-edit-space-profile.md
           - View Holons in Space: dev-roadmap-planning/use-cases/view-holons-in-space.md
-          - View Notifications: dev-roadmap-planning/use-cases/view-notifications.md
 
   - Archive:
       - GitBook Import: archive/gitbook-import.md
+
+  # -- Included but hidden pages to support snippet includes --
+  - "":  # Hidden entries
+      - dev-roadmap-planning/use-cases/create-profile.md
+      - dev-roadmap-planning/use-cases/create-edit-meme.md
+      - dev-roadmap-planning/use-cases/browse-meme-pool.md
+      - dev-roadmap-planning/use-cases/define-life-code.md
+      - dev-roadmap-planning/use-cases/join-or-create-space.md
+      - dev-roadmap-planning/use-cases/view-holons-in-space.md
+      - dev-roadmap-planning/use-cases/create-edit-holon.md
+      - dev-roadmap-planning/use-cases/receive-notifications.md
