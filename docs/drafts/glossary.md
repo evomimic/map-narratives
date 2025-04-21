@@ -185,7 +185,7 @@ A Holon contains within itself everything needed to interpret and interact with 
   To what other Holons are you related via those relationships?
 
 - **Through what visualizations can I view and interact with you?**  
-  Holons reference one or more [Visualizers](#) from the commons, allowing fully customizable rendering and interaction — from list views to immersive spatial experiences.
+  Holons reference one or more [Visualizers](#visualizer) from the commons, allowing fully customizable rendering and interaction — from list views to immersive spatial experiences.
 
 - **What types of data access are permitted?**  
   Holons carry their own access policies, provenance signatures, and licensing terms — enabling granular, trustable permissioning.

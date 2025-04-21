@@ -54,7 +54,7 @@ A **LifeCode** encodes the shared values, practices, and narrative identity of a
 
 LifeCodes:
 - May be expressed as text, ritual sequences, storyworlds, or symbolic memes
-- Influence [GovernanceModels](#governancemodel) and [Protocol](#)
+- Influence [GovernanceModels](#governancemodel) and protocols
 - Are referenced and evolved collectively by Space participants
 
 ---
