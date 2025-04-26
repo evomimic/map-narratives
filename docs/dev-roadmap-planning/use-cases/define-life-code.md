@@ -21,7 +21,7 @@ Agents define or update the LifeCode for a given Space. LifeCode defines shared 
 - [Ecological Storyteller](../personas/ecological-storyteller.md)
 - [Commons Architect](../personas/commons-architect.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent is a member of the Space  

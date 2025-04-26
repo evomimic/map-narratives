@@ -25,7 +25,7 @@ An agent initiates a new Space (such as a crew, collective, project, or commons)
 - [Community Weaver](../personas/community-weaver.md)
 - [Emergence Host](../personas/emergence-host.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent has an active MAP profile  

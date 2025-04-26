@@ -23,7 +23,7 @@ An Agent schedules a new Event, defining time, location, and invited participant
 
 ---
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Initiating Actor:**  
     Any Agent

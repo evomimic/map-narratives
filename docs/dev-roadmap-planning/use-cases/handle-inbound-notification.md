@@ -19,7 +19,7 @@ When an inbound notification is received by a Space (typically the I-Space of an
 **Personas Likely Involved:**
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Notification is generated from an upstream source (another Agent, system event, protocol message, etc.)  

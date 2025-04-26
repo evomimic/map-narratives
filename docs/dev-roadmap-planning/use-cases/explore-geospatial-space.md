@@ -27,7 +27,7 @@ An agent explores a geospatial map of holons within or across spaces. This invol
 - [Pattern Detective](../personas/pattern-detective.md)
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent has access to the Geospatial Map Explorer  

@@ -21,7 +21,7 @@ An Agent opens their Notification Center to browse incoming messages, system ale
 
 ---
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Initiating Actor:**  
     Agent

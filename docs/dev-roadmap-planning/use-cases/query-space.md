@@ -23,7 +23,7 @@ An agent performs a query over a Space’s DataGrove to retrieve a filtered set 
 - [Pattern Detective](../personas/pattern-detective.md)
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent is a participant in the Space  

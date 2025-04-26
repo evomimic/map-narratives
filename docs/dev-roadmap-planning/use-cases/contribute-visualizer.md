@@ -24,7 +24,7 @@ A Human Experience (HX) developer creates and publishes a new visualizer to the 
 - [Techno-Doula](../personas/techno-doula.md)
 - [Mapp Developer](../personas/mapp-developer.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**
     - Developer has access to the MAP dev environment and associated toolkits

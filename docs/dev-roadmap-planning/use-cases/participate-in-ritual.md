@@ -24,7 +24,7 @@ An agent engages in a Ritual within a Space. Rituals are time-bound, intention-d
 - [Embodied Practitioner](../personas/embodied-practitioner.md)
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - A Ritual has been defined and published in the Space  

@@ -23,7 +23,7 @@ An Agent responds to an invitation to a scheduled event within a Space. RSVP may
 - [Community Weaver](../personas/community-weaver.md)
 - [Bridgewalker](../personas/bridgewalker.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent has been invited to an Event  

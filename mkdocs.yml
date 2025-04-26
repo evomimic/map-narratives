@@ -3,6 +3,12 @@ repo_url: https://github.com/evomimic/map-narratives
 repo_name: map-narratives
 edit_uri: edit/main/docs/
 
+plugins:
+  - search
+  #- pdf-export:
+  #   verbose: true
+  #    media_type: print
+
 theme:
   name: material
   features:
@@ -14,13 +20,15 @@ theme:
     - scheme: default
       primary: indigo
       accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: cyan
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
+        icon: material/weather-sunny
+        name: Switch to light mode
 markdown_extensions:
   - toc:
       permalink: true

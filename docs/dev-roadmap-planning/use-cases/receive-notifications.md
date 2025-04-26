@@ -22,7 +22,7 @@ An Agent views and interacts with notifications they have received — either im
 
 ---
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Initiating Actor:**  
     Human Agent

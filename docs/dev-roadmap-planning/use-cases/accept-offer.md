@@ -25,7 +25,7 @@ An Agent formally accepts an existing Offer, forming a relationship and context 
 
 ---
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - An Offer holon is published and accessible  

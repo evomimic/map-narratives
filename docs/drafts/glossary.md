@@ -11,13 +11,12 @@ This glossary defines key concepts and terms used throughout the MAP architectur
 
 ## Agent
 
-An **Agent** is any entity capable of sensing and responding to its environment. In MAP, Agents may be:
+An **Agent** is any entity capable of sensing and responding to its environment. It may be biological (e.g., a person, whale, or tree), technical (e.g., a computing process), or social (e.g., a family, cooperative, or commons).
 
-- **Biological**: e.g., persons, trees, whales
-- **Technical**: e.g., autonomous computing agents
-- **Social**: e.g., communities, co-ops, DAOs, bioregions
+- Every Agent has a unique identity and a corresponding [I-Space](#i-space) — a private AgentSpace that houses its [LifeCode](#lifecode), [Data Grove](#data-grove), and core affordances. 
+- Agents can make [offers](#offer) and accept _offers_ made by others to form [Agreements](#agreement).
 
-Agents are expressed as [Holons](#holon) and exist within one or more [AgentSpaces](#agentspace). Every Agent belongs to the [Exosphere](#exosphere) and typically one or more additional AgentSpaces.
+Agents are expressed as [Holons](#holon) that belong to one or more [AgentSpaces](#agentspace). Every Agent belongs to the [Exosphere](#exosphere) and typically one or more additional _AgentSpaces_.
 
 ---
 
@@ -31,7 +30,7 @@ An **AgentSpace** is a membrane-bound social space where [Agents](#agent) intera
 
 Every AgentSpace has its own [LifeCode](#lifecode), and every interaction between Agents happens **within** an AgentSpace.
 
-⚠️ *Not every AgentSpace is itself an Agent (i.e., not all are [Social Organisms](#social-organism)), but some AgentSpaces may evolve into Agents one level up the holarchy.*
+⚠️ *Not every AgentSpace is itself an Agent (i.e., not all are [Social Organisms](#social-organism)), but some  AgentSpaces, once sufficiently coherent and governed, may themselves become Agents — emergent wholes acting at a higher level of the holarchy.*
 
 ---
 
@@ -59,8 +58,6 @@ While agreements may **expire**, be **revoked**, or become **inactive**, the Age
 
 
 ---
-
-## DAHN (Dynamic Adaptive Holon Navigator)
 
 ## DAHN (Dynamic Adaptive Holon Navigator)
 

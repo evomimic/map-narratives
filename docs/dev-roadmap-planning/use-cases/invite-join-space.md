@@ -25,7 +25,7 @@ An Agent is invited to join a Space and either accepts or declines. This flow en
 - [Bioregional Catalyst](../personas/bioregional-catalyst.md)
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent is identified and addressable (e.g., via profile or credential)  

@@ -20,7 +20,7 @@ An agent manages their preferences for receiving and routing system notification
 - [Techno-Doula](../personas/techno-doula.md)
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-???+ Use Case Details
+??? Use Case Details
 
     **Preconditions:**
     - Agent is authenticated and active within one or more Spaces

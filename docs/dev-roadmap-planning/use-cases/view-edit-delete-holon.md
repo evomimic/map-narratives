@@ -24,7 +24,7 @@ An Agent accesses, updates, or deletes an existing Holon. This use case supports
 
 ---
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Initiating Actor:**  
     Agent

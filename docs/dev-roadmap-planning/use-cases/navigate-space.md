@@ -27,7 +27,7 @@ An agent browses the contents of a Space, exploring holons, relationships, and a
 - [Pattern Detective](../personas/pattern-detective.md)
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent is a member of or has view access to the Space  

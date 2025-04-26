@@ -19,7 +19,7 @@ An agent invites one or more others to participate in a scheduled event. Invitat
 - [Regenerative Actor](../personas/regenerative-actor.md)
 - [Community Weaver](../personas/community-weaver.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - An Event Holon already exists  

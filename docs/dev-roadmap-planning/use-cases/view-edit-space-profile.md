@@ -23,7 +23,7 @@ An Agent views or edits the metadata of a Space, including its name, description
 
 ---
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Initiating Actor:**  
     A member of the Space with edit permissions (e.g., founder, steward)

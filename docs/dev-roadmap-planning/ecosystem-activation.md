@@ -6,7 +6,7 @@ The **Memetic Activation Platform (MAP)** is a living, decentralized coordinatio
 
 At its heart, MAP helps **agents** — people, collectives, communities — articulate their **values** and **offers**, coordinate through **consent-based agreements**, and flow **vital value** across sovereign boundaries.
 
-The MAP is not a single app — it’s an **ecosystem platform** aimed at fostering the emergence of self-sustaining, yet mutually reinforcing ecosystems. The initial release of the MAP is intended to seed each of the following ecosystems.
+MAP is not a single app — it is a **decentralized ecosystem enabler**: a platform that provides the shared protocols, structures, and interfaces for regenerative ecosystems to take root and reinforce each other. Rather than enforcing a one-size-fits-all experience, MAP supports the emergence of diverse, self-governing patterns of participation — each tailored to its own context, yet interoperable across the whole.
 
 ![img_1.png](img_1.png)
 

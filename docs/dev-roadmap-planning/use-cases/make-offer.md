@@ -22,7 +22,7 @@ An agent publishes an offer to initiate collaboration or exchange. Offers may in
 - [Commons Architect](../personas/commons-architect.md)
 - [Techno-Doula](../personas/techno-doula.md)
 
-???+ "Use Case Details"
+??? "Use Case Details"
 
     **Preconditions:**  
     - Agent is a member of a Space where offers can be published  

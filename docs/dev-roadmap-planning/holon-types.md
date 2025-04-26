@@ -240,11 +240,11 @@ A **SavedView** is a persistable visualization or filter configuration — usefu
 
 ---
 
-### Visualizer
+## Visualizer
 
 Visualizers define how Holons and their properties are rendered within the DAHN (Dynamic, Adaptive, Holon Navigator) interface. They are implemented as specialized Holons and are composed into dynamic view hierarchies that bring the MAP’s living knowledge graph to life.
 
-### Visualizer Types
+## Visualizer Types
 
 - **CanvasVisualizer**  
   The DAHN's outermost visual container. All other elements are rendered within its bounds.
@@ -279,7 +279,7 @@ Visualizers define how Holons and their properties are rendered within the DAHN 
 
 ---
 
-### Visualizer Commons
+## Visualizer Commons
 
 - **Each Visualizer is associated with a MAP Type** — such as a `HolonType`, `PropertyType`, `DanceType`, or `ViewType`.
 - Visualizers are **dynamically selected at run-time** by DAHN, based on a blend of:
