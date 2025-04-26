@@ -121,16 +121,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
       </label>
     
   
@@ -2504,29 +2508,37 @@
 <hr />
 <h2 id="why-map-is-ideal-for-rag">Why MAP is Ideal for RAG<a class="headerlink" href="#why-map-is-ideal-for-rag" title="Permanent link">&para;</a></h2>
 <h3 id="1-graph-native-infrastructure-opencypher-gql">1. <strong>Graph-Native Infrastructure (OpenCypher / GQL)</strong><a class="headerlink" href="#1-graph-native-infrastructure-opencypher-gql" title="Permanent link">&para;</a></h3>
-<p>MAP exposes all information and interactions through a <strong>self-describing knowledge graph</strong>, accessible via standard <strong>OpenCypher</strong> and the emerging <strong>GQL</strong> ISO standard. This allows RAG systems to:
-- Query MAP as a <strong>live, structured, semantically rich data source</strong>
-- Leverage relational context, memetic signatures, and governed scopes
-- Integrate seamlessly with other graph-native systems (e.g. Neo4j)</p>
+<p>MAP exposes all information and interactions through a <strong>self-describing knowledge graph</strong>, accessible via standard <strong>OpenCypher</strong> and the emerging <strong>GQL</strong> ISO standard. This allows RAG systems to:</p>
+<ul>
+<li>Query MAP as a <strong>live, structured, semantically rich data source</strong></li>
+<li>Leverage relational context, memetic signatures, and governed scopes</li>
+<li>Integrate seamlessly with other graph-native systems (e.g. Neo4j)</li>
+</ul>
 <h3 id="2-governance-scoped-retrieval">2. <strong>Governance-Scoped Retrieval</strong><a class="headerlink" href="#2-governance-scoped-retrieval" title="Permanent link">&para;</a></h3>
-<p>In MAP, <strong>every query is scoped to a specific Agent Space</strong>. This guarantees:
-- Retrieval occurs only within the bounds of explicit consent and governance
-- No cross-organizational inference leakage
-- Fine-grained control over what AI sees, when, and why</p>
+<p>In MAP, <strong>every query is scoped to a specific Agent Space</strong>. This guarantees:</p>
+<ul>
+<li>Retrieval occurs only within the bounds of explicit consent and governance</li>
+<li>No cross-organizational inference leakage</li>
+<li>Fine-grained control over what AI sees, when, and why</li>
+</ul>
 <h3 id="3-data-sovereignty-provenance-licensing">3. <strong>Data Sovereignty, Provenance &amp; Licensing</strong><a class="headerlink" href="#3-data-sovereignty-provenance-licensing" title="Permanent link">&para;</a></h3>
-<p>Each holon in MAP is:
-- <strong>Signed, permissioned, and licensed</strong>
-- Traceable to its contributor with attached usage conditions (Creative Commons or other)
-- Accessed via <strong>revocable Information Access Agreements</strong>, not open data dumps</p>
+<p>Each holon in MAP is:</p>
+<ul>
+<li><strong>Signed, permissioned, and licensed</strong></li>
+<li>Traceable to its contributor with attached usage conditions (Creative Commons or other)</li>
+<li>Accessed via <strong>revocable Information Access Agreements</strong>, not open data dumps</li>
+</ul>
 <p>This ensures AI systems can <strong>retrieve without appropriating</strong>, honoring the rights and context of data originators.</p>
 <h3 id="4-federated-knowledge-commons-as-rich-rag-source">4. <strong>Federated Knowledge Commons as Rich RAG Source</strong><a class="headerlink" href="#4-federated-knowledge-commons-as-rich-rag-source" title="Permanent link">&para;</a></h3>
 <p>MAP supports a <strong>global Memetic Commons</strong>, where contributors publish frameworks, models, and narratives with licensing, lineage, and memetic intent. For AI systems, this becomes a <strong>rich, federated library of high-trust, re-usable knowledge assets</strong> — curated by humans, not scraped from the web.</p>
 <hr />
 <h2 id="strategic-advantage-for-ai-builders">Strategic Advantage for AI Builders<a class="headerlink" href="#strategic-advantage-for-ai-builders" title="Permanent link">&para;</a></h2>
-<p>Integrating with MAP offers:
-- A future-proof, <strong>values-aligned RAG source</strong>
-- A pathway toward <strong>legal and ethical defensibility</strong> in knowledge retrieval
-- The ability to serve domains where <strong>trust, attribution, and governance</strong> are non-negotiable</p>
+<p>Integrating with MAP offers:</p>
+<ul>
+<li>A future-proof, <strong>values-aligned RAG source</strong></li>
+<li>A pathway toward <strong>legal and ethical defensibility</strong> in knowledge retrieval</li>
+<li>The ability to serve domains where <strong>trust, attribution, and governance</strong> are non-negotiable</li>
+</ul>
 <p>And because MAP uses standard interfaces like OpenCypher, building an adapter for MAP <strong>unlocks access to other graph systems</strong> as well — without vendor lock-in.</p>
 <hr />
 <p><em>MAP is more than a data source. It’s an ecosystem of intentional knowledge — designed to be queried, trusted, and respected.</em></p>
