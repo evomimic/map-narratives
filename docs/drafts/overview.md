@@ -107,6 +107,8 @@ Visualizers and interaction gestures are **community-contributed and co-evolved*
 - [Greet the DAHN: Dynamic Adaptive Holon Navigator](DAHN.md)
 - [Promise Weaves in the MAP (Agreements)](promise-weaves.md)
 - [MAP Uniform API — Dances as the Universal Interface](uniform-api.md)
+- [Bringing Ethical AI to Life](ethical-ai-rag.md)
+- [Glossary](glossary.md)
 
 ---
 
