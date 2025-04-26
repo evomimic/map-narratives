@@ -104,6 +104,7 @@ Visualizers and interaction gestures are **community-contributed and co-evolved*
 - [MAP Promises](promises.md)
 - [Collaboration at Scale — The Emergence of Promise Weaves](promise-weaves.md)
 - [Vital Capital Flows in the MAP](vital-capital-flows.md)
+- [MAP Security Model](security-model.md)
 - [Greet the DAHN: Dynamic Adaptive Holon Navigator](DAHN.md)
 - [Promise Weaves in the MAP (Agreements)](promise-weaves.md)
 - [MAP Uniform API — Dances as the Universal Interface](uniform-api.md)

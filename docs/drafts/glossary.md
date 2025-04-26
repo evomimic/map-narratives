@@ -94,6 +94,7 @@ And the `DanceResponse` returns:
 - A set of next possible dances based on the current state of the system
 
 > A **Dance** is not just a function call — it's a structured act of agency within a living graph of relationship and meaning.
+
 ---
 
 ## Dance Interface Protocol
