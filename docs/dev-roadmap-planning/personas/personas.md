@@ -16,14 +16,17 @@ NOTE:
 - **[Cartographer](./cartographer.md):** Maps the structure, relationships, and flows of the ecosystem.
 - **[Commons Architect](./commons-architect.md):** Designs shared infrastructure for coordination and stewardship.
 - **[Community Weaver](./community-weaver.md):** Fosters trust, belonging, and mutual support in living networks.
+- **[Delivery Catalyst](./delivery-catalyst.md):** Catalyze the successful delivery of regenerative initiatives by bringing structure, alignment, and executional excellence in service to life.
 - **[Ecological Storyteller](./ecological-storyteller.md):** Narrates patterns of planetary change and human responsibility.
 - **[Embodied Practitioner](./embodied-practitioner.md):** Grounds cultural transformation in somatic and spiritual practice.
 - **[Emergence Host](./emergence-host.md):** Holds space for collective sensemaking and self-organization.
+- **[Finance Architect](./finance-architect.md):** Fund the transition using new concepts of money and wealth (e.g., Flow Funding, Community Bonds, Regenerative Currencies)
 - **[HX Designer](./hx-designer.md):** Crafts holistic experience flows for human and ecosystem flourishing.
 - **[Landscape Steward](./landscape-steward.md):** Tends to the living land and regenerates place-based vitality.
 - **[Life Systems Educator](./life-systems-educator.md):** Teaches systems thinking and regenerative worldviews.
 - **[Mapp Developer](./mapp-developer.md):** Builds modular software capabilities to activate core MAP flows.
 - **[Mythmaker](./mythmaker.md):** Authors guiding narratives and archetypes for cultural coherence.
+- **[Patron](./patron.md):**
 - **[Pattern Detective](./pattern-detective.md):** Identifies emergent patterns and informs adaptive responses.
 - **[Resource Connector](./resource-connector.md):** Matches needs with offers and aligns flows of support.
 - **[Ritual Holder](./ritual-holder.md):** Facilitates shared symbolic practices that deepen group coherence.
