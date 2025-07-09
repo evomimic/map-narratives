@@ -17,7 +17,7 @@ At its heart, the MAP helps **agents** — people, collectives, communities — 
 The MAP is a foundation you build with — a living substrate for regenerative action.
 
 ### 🌱 For individuals:
-- Put yourself on the MAP — literally and figuratively.
+- Everything starts with putting yourself on the MAP — literally and figuratively.
 - Establish your personal identity and private _I-Space_.
 - Within your I-Space you can:
   - Connect to _place_ — record your physical location.

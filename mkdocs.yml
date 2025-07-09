@@ -16,6 +16,8 @@ theme:
     - search.highlight
     - navigation.top
     - content.action.edit
+    - navigation.footer
+    - pymdownx.tooltips
   palette:
     - scheme: default
       primary: indigo
@@ -84,14 +86,17 @@ nav:
           - Cartographer: dev-roadmap-planning/personas/cartographer.md
           - Commons Architect: dev-roadmap-planning/personas/commons-architect.md
           - Community Weaver: dev-roadmap-planning/personas/community-weaver.md
+          - Community Weaver: dev-roadmap-planning/personas/delivery-catalyst.md
           - Ecological Storyteller: dev-roadmap-planning/personas/ecological-storyteller.md
           - Embodied Practitioner: dev-roadmap-planning/personas/embodied-practitioner.md
           - Emergence Host: dev-roadmap-planning/personas/emergence-host.md
+          - Finance Architect: dev-roadmap-planning/personas/finance-architect.md
           - HX Designer: dev-roadmap-planning/personas/hx-designer.md
           - Landscape Steward: dev-roadmap-planning/personas/landscape-steward.md
           - Life Systems Educator: dev-roadmap-planning/personas/life-systems-educator.md
           - Mapp Developer: dev-roadmap-planning/personas/mapp-developer.md
           - Mythmaker: dev-roadmap-planning/personas/mythmaker.md
+          - Patron: dev-roadmap-planning/personas/patron.md
           - Pattern Detective: dev-roadmap-planning/personas/pattern-detective.md
           - Resource Connector: dev-roadmap-planning/personas/resource-connector.md
           - Ritual Holder: dev-roadmap-planning/personas/ritual-holder.md

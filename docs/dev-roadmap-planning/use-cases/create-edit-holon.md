@@ -23,40 +23,38 @@ An agent creates a new holon of any HolonType, or views and modifies an existing
 - [Cartographer](../personas/cartographer.md)
 - [Regenerative Actor](../personas/regenerative-actor.md)
 
-<details>
-<summary><strong>Use Case Details</strong></summary>
+??? "Use Case Details"
 
-**Preconditions:**
-- Agent is authenticated
-- Agent has permissions to create or edit the relevant HolonType
+    **Preconditions:**
+    - Agent is authenticated
+    - Agent has permissions to create or edit the relevant HolonType
 
-**Post-conditions:**
-- New holon is created and linked into its contextual network
-- Existing holon is updated with revised data
+    **Post-conditions:**
+    - New holon is created and linked into its contextual network
+    - Existing holon is updated with revised data
 
-**Assumptions:**
-- Holons follow a flexible but type-constrained schema
-- Certain holon types may trigger downstream effects (e.g., notifications, indexing, replication)
+    **Assumptions:**
+    - Holons follow a flexible but type-constrained schema
+    - Certain holon types may trigger downstream effects (e.g., notifications, indexing, replication)
 
-### Main Flow
-1. Agent initiates holon creation or selection via the Holon Editor
-2. Chooses HolonType (if new), or retrieves existing holon
-3. Fills out holon metadata, properties, and references
-4. Saves holon to distributed persistence layer
-5. Editor confirms creation/update and returns to viewing context
+    ### Main Flow
+    1. Agent initiates holon creation or selection via the Holon Editor
+    2. Chooses HolonType (if new), or retrieves existing holon
+    3. Fills out holon metadata, properties, and references
+    4. Saves holon to distributed persistence layer
+    5. Editor confirms creation/update and returns to viewing context
 
-### Wireframes
-- Holon creation form (type picker, property fields)
-- Holon detail view (tabs or sections for metadata, references, actions)
+    ### Wireframes
+    - Holon creation form (type picker, property fields)
+    - Holon detail view (tabs or sections for metadata, references, actions)
 
-### GitHub Issues
-- [ ] Dynamic form rendering from HolonType definitions
-- [ ] Holon validation and save logic
-- [ ] Multi-type Holon search interface
+    ### GitHub Issues
+    - [ ] Dynamic form rendering from HolonType definitions
+    - [ ] Holon validation and save logic
+    - [ ] Multi-type Holon search interface
 
-### Implementation Notes
-- May benefit from reusable components for property/value-type widgets
-- DAHN may dynamically switch visualizers based on holon type
-- HolonEditor UX should be context-aware (Space-local vs. global)
+    ### Implementation Notes
+    - May benefit from reusable components for property/value-type widgets
+    - DAHN may dynamically switch visualizers based on holon type
+    - HolonEditor UX should be context-aware (Space-local vs. global)
 
-</details>
