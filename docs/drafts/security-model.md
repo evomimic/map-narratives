@@ -24,7 +24,7 @@ Controls the admission and removal of agents and devices into and out of an Agen
 ### 2.2 Information Access Membrane
 Controls the flow of data into and out of an Agent Space.
 
-- Based on the **self-describing nature** of MAP data structures (Polons), information access policies are defined in terms of data types and access conditions.
+- Based on the **self-describing nature** of MAP data structures (Holons), information access policies are defined in terms of data types and access conditions.
 - Enables fine-grained, type-specific control over what information is shared, with whom, and under what agreements.
 
 ## 3. Inverted Authentication Model
