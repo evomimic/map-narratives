@@ -1273,6 +1273,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../personas/delivery-catalyst/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community Weaver
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../personas/ecological-storyteller/" class="md-nav__link">
         
   
@@ -1325,6 +1348,29 @@
   
   <span class="md-ellipsis">
     Emergence Host
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/finance-architect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Finance Architect
     
   </span>
   
@@ -1440,6 +1486,29 @@
   
   <span class="md-ellipsis">
     Mythmaker
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/patron/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Patron
     
   </span>
   
@@ -1790,6 +1859,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Create / View / Edit Holon
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1801,6 +1883,61 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireframes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wireframes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub Issues
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2324,6 +2461,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireframes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wireframes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub Issues
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2365,41 +2546,41 @@ An agent creates a new holon of any HolonType, or views and modifies an existing
 - <a href="../../personas/cartographer/">Cartographer</a>
 - <a href="../../personas/regenerative-actor/">Regenerative Actor</a></p>
 <details>
-<summary><strong>Use Case Details</strong></summary>
-
-**Preconditions:**
+<summary>Use Case Details</summary>
+<p><strong>Preconditions:</strong>
 - Agent is authenticated
-- Agent has permissions to create or edit the relevant HolonType
-
-**Post-conditions:**
+- Agent has permissions to create or edit the relevant HolonType</p>
+<p><strong>Post-conditions:</strong>
 - New holon is created and linked into its contextual network
-- Existing holon is updated with revised data
-
-**Assumptions:**
+- Existing holon is updated with revised data</p>
+<p><strong>Assumptions:</strong>
 - Holons follow a flexible but type-constrained schema
-- Certain holon types may trigger downstream effects (e.g., notifications, indexing, replication)
-
-### Main Flow
-1. Agent initiates holon creation or selection via the Holon Editor
-2. Chooses HolonType (if new), or retrieves existing holon
-3. Fills out holon metadata, properties, and references
-4. Saves holon to distributed persistence layer
-5. Editor confirms creation/update and returns to viewing context
-
-### Wireframes
-- Holon creation form (type picker, property fields)
-- Holon detail view (tabs or sections for metadata, references, actions)
-
-### GitHub Issues
-- [ ] Dynamic form rendering from HolonType definitions
-- [ ] Holon validation and save logic
-- [ ] Multi-type Holon search interface
-
-### Implementation Notes
-- May benefit from reusable components for property/value-type widgets
-- DAHN may dynamically switch visualizers based on holon type
-- HolonEditor UX should be context-aware (Space-local vs. global)
-
+- Certain holon types may trigger downstream effects (e.g., notifications, indexing, replication)</p>
+<h3 id="main-flow">Main Flow<a class="headerlink" href="#main-flow" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Agent initiates holon creation or selection via the Holon Editor</li>
+<li>Chooses HolonType (if new), or retrieves existing holon</li>
+<li>Fills out holon metadata, properties, and references</li>
+<li>Saves holon to distributed persistence layer</li>
+<li>Editor confirms creation/update and returns to viewing context</li>
+</ol>
+<h3 id="wireframes">Wireframes<a class="headerlink" href="#wireframes" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Holon creation form (type picker, property fields)</li>
+<li>Holon detail view (tabs or sections for metadata, references, actions)</li>
+</ul>
+<h3 id="github-issues">GitHub Issues<a class="headerlink" href="#github-issues" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Dynamic form rendering from HolonType definitions</li>
+<li>[ ] Holon validation and save logic</li>
+<li>[ ] Multi-type Holon search interface</li>
+</ul>
+<h3 id="implementation-notes">Implementation Notes<a class="headerlink" href="#implementation-notes" title="Permanent link">&para;</a></h3>
+<ul>
+<li>May benefit from reusable components for property/value-type widgets</li>
+<li>DAHN may dynamically switch visualizers based on holon type</li>
+<li>HolonEditor UX should be context-aware (Space-local vs. global)</li>
+</ul>
 </details>
 
 
